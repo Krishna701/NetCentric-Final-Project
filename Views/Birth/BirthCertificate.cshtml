@@ -1,0 +1,447 @@
+﻿@model EGovProject.Models.ViewModel.BirthModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<head>
+   
+    <link rel="stylesheet" href="~/index.css">
+    <style>
+        h1 {
+            margin: 65px 0 65px;
+            font-family: 'Mukta', Poppins, sans-serif;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+
+
+
+    @if (Model == null)
+    {
+        <div>
+
+            <h1>जन्म दर्ता प्रमाणपत्र भेटिएन।कृपया आफ्नो सहि दर्ता नं लेख्नुहोस्, धन्यवाद!!!  </h1>
+
+
+        </div>
+
+    }
+    else
+    {
+        @if (@Model.IsVerified == false)
+        { 
+
+            <div>
+
+                <h1>जन्म दर्ता प्रमाणिकरण हुन बाँकी छ, धन्यवाद!!!  </h1>
+
+            </div>
+
+        }
+        else
+                {
+
+               
+
+        <div class="main1" >
+            <input type="button" id="btnExport" value="Download" style="float:right;" />
+        </div>
+
+        <div class="main" id="det">
+
+            <div class="bg-logo">
+                <img src="/Content/images/logo1.png">
+            </div>
+
+            <div id="topHeader">
+
+
+
+
+                <div>अनुसूची-२०</div>
+                <div>(नियम २० को उपनियम(१) को खण्ड (क) सँग सम्बन्धित)</div>
+                <div>नेपाल सरकार(Government of Nepal)</div>
+                <div class="logo">
+
+                    <img src="/Content/images/logo1.png" width="130" height="130">
+
+                </div>
+                <div>स्थानीय पंज्जीकाधिकारिको कार्यालय(Office of Local Registrar)</div>
+                <div>
+                    वडा नं.
+                    <script>
+                                var ward = "@Model.Ward";
+                            if (ward == "01")
+                                document.write("०१");
+                            else if (ward == "02")
+                                document.write("०२");
+                            else if (ward == "03")
+                                document.write("०३");
+                            else if (ward == "04")
+                                document.write("०४");
+                            else if (ward == "05")
+                                document.write("०५");
+                            else if (ward == "06")
+                                document.write("०६");
+                            else if (ward == "07")
+                                document.write("०७");
+                            else if (ward == "08")
+                                document.write("०8");
+                            else if (ward == "09")
+                                document.write("०९");
+                            else if (ward == "10")
+                                document.write("१०");
+                            else if (ward == "11")
+                                document.write("११");
+                            else if (ward == "12")
+                                document.write("१२");
+                            else if (ward == "13")
+                                document.write("१३");
+                            else if (ward == "14")
+                                document.write("१४");
+                            else if (ward == "15")
+                                document.write("१५");
+                            else if (ward == "16")
+                                document.write("१६");
+                            else if (ward == "17")
+                                document.write("१७");
+                            else if (ward == "18")
+                                document.write("१८");
+                            else if (ward == "19")
+                                document.write("19");
+                            else if (ward == "20")
+                                document.write("20");
+                            else if (ward == "21")
+                                document.write("२१");
+                            else if (ward == "22")
+                                document.write("२२");
+                            else if (ward == "23")
+                                document.write("१३");
+                            else if (ward == "24")
+                                document.write("२४");
+                            else if (ward == "25")
+                                document.write("२५");
+                            else if (ward == "26")
+                                document.write("२६");
+                            else if (ward == "27")
+                                document.write("२७");
+                            else if (ward == "28")
+                                document.write("२८");
+                            else if (ward == "29")
+                                document.write("२९");
+                            else if (ward == "30")
+                                document.write("३०");
+
+                            else
+                                document.write(ward);
+
+                    </script>,@Model.MuVdc नगरपालिका
+                </div>
+                <div>Ward No.9, Mandandeupur Municipality</div>
+                <div>काभ्रे जिल्ला(Kavre District),बागमती प्रदेश(Bagmati Province)</div>
+                <div class="title1">
+                    जन्म दर्ता प्रमाणपत्र
+                </div>
+                <div class="title">
+                    Birth Registration Certificate
+                </div>
+                <div class="text-left">
+
+                </div>
+                <div class="text-right">
+                    <b>दर्ता मिति (Registration Date)</b>  :&nbsp;@Model.RegistrationDateNepali B.S (@Model.RegistrationDateEnglish A.D)
+                </div>
+                <div class="text-left">
+                    <b>  दर्ता नुम्बर (Registration No.)</b>  :&nbsp; @Model.RegistrationNumber
+
+                </div>
+            </div>
+            <div id="mainForm">
+
+                <table border="1" style="border:1px solid black;" cellspacing="0" width="100%">
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="fullName">पुरा नाम:&nbsp;</label>
+                                @Model.FNameNepali  @Model.MNameNepali  @Model.LNameNepali
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="fullName">Full Name:&nbsp;</label>
+                                @Model.FNameEnglish    @Model.MNameEnglish    @Model.LNameEnglish
+                            </div>
+                        </td>
+
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item"><label for="dob">जन्म मिति(Date of Birth):&nbsp;</label>वि.सं.@Model.NDOBBSY-@Model.NDOBBSM-@Model.NDOBBSD/@Model.EDOBBSD-@Model.EDOBBSM-@Model.EDOBBSY (A.D.)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="gender">लिंग/(Gender):&nbsp;</label>
+                                <script>
+                            var sex = "@Model.Gender";
+                            if (sex == "MALE")
+                                document.write("पुरुष");
+                            else if (sex == "FEMALE")
+                                document.write("महिला");
+                            else
+                                document.write("तेस्रो लिंगी");
+
+                                </script>/@Model.Gender
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="permanentAddress">स्थायी ठेगाना:&nbsp;</label>बागमती,काभ्रे,मण्डनदेउपुर-
+
+                                <script>
+                                var ward = "@Model.Ward";
+                            if (ward == "01")
+                                document.write("०१");
+                            else if (ward == "02")
+                                document.write("०२");
+                            else if (ward == "03")
+                                document.write("०३");
+                            else if (ward == "04")
+                                document.write("०४");
+                            else if (ward == "05")
+                                document.write("०५");
+                            else if (ward == "06")
+                                document.write("०६");
+                            else if (ward == "07")
+                                document.write("०७");
+                            else if (ward == "08")
+                                document.write("०8");
+                            else if (ward == "09")
+                                document.write("०९");
+                            else if (ward == "10")
+                                document.write("१०");
+                            else if (ward == "11")
+                                document.write("११");
+                            else if (ward == "12")
+                                document.write("१२");
+                            else if (ward == "13")
+                                document.write("१३");
+                            else if (ward == "14")
+                                document.write("१४");
+                            else if (ward == "15")
+                                document.write("१५");
+                            else if (ward == "16")
+                                document.write("१६");
+                            else if (ward == "17")
+                                document.write("१७");
+                            else if (ward == "18")
+                                document.write("१८");
+                            else if (ward == "19")
+                                document.write("19");
+                            else if (ward == "20")
+                                document.write("20");
+                            else if (ward == "21")
+                                document.write("२१");
+                            else if (ward == "22")
+                                document.write("२२");
+                            else if (ward == "23")
+                                document.write("१३");
+                            else if (ward == "24")
+                                document.write("२४");
+                            else if (ward == "25")
+                                document.write("२५");
+                            else if (ward == "26")
+                                document.write("२६");
+                            else if (ward == "27")
+                                document.write("२७");
+                            else if (ward == "28")
+                                document.write("२८");
+                            else if (ward == "29")
+                                document.write("२९");
+                            else if (ward == "30")
+                                document.write("३०");
+
+                            else
+                                document.write(ward);
+
+                                </script>
+
+                                ,@Model.BirthPlaceNepali
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item"><label for="permanentAddress">Permanent Address:&nbsp;</label>@Model.Province,@Model.District,@Model.MuVdc-@Model.Ward, @Model.BirthPlaceEnglish</div>
+                        </td>
+                    </tr>
+                    <tr><td colspan="5"> <div class="input_item"><label for="birthPlace">जन्मस्थान/Birth Place:&nbsp;</label>@Model.BirthPlaceEnglish</div></td></tr>
+                    <tr><td colspan="5"> <div class="input_item"><label for="grandFatherName">बाजेको पुरा:&nbsp; </label>@Model.GFFNepali @Model.GFMNepali @Model.GFLNepali</div></td></tr>
+                    <tr><td colspan="5"> <div class="input_item"><label for="grandFatherName">Full name of Grandfather:&nbsp;</label>@Model.GFFEnglish @Model.GFMEnglish @Model.GFLEnglish</div></td></tr>
+                    <tr>
+
+
+                        <td colspan="1" rowspan="3">
+                            <div class="title">
+                                बाबुको विवरण&nbsp;&nbsp;
+
+                                (Father's Details)
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="inputs">
+                                <div class="input_item"><label for="fathersFullName">पुरा नाम:&nbsp;</label>@Model.FatherFNepali @Model.FatherMNepali @Model.FatherLNepali</div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="fathersFullName">Full Name:&nbsp;</label>@Model.FatherFEnglish @Model.FatherMEnglish @Model.FatherLEnglish</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersID">परिचयपत्र नं(नागरिकता/राहदानी)/ID (Citizenship/Passport):&nbsp;</label>@Model.Fatherctznum</div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td colspan="1" rowspan="3">
+                            <div class="title">
+                                आमाको विवरण&nbsp;&nbsp;
+                                (Mother's Details)
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="inputs">
+                                <div class="input_item"><label for="fathersFullName">पुरा नाम:&nbsp;</label>@Model.MotherFNepali @Model.MotherMNepali @Model.MotherLNepali</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersFullName">Full Name:&nbsp;</label>@Model.MotherFEnglish @Model.MotherMEnglish @Model.MotherLEnglish</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersID">परिचयपत्र नं(नागरिकता/राहदानी)/ID (Citizenship/Passport):&nbsp;</label>@Model.Motherctznum</div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+
+                        <td colspan="1" rowspan="3">
+                            <div class="title">
+                                सूचकको विवरण&nbsp;&nbsp;
+                                (Informant's Details)
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="inputs">
+                                <div class="input_item"><label for="fathersFullName">पुरा नाम:&nbsp;</label>@Model.ApplicantFNepali @Model.ApplicantMNepali @Model.ApplicantLNepali</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="3">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="informantsFullName">Full Name:&nbsp;</label>@Model.ApplicantFEnglish @Model.ApplicantMEnglish  @Model.ApplicantLEnglish </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersID">परिचयपत्र नं(नागरिकता/राहदानी)/ID (Citizenship/Passport):&nbsp;</label>@Model.Applicantctznum</div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </table>
+            </div>
+
+            <div id="remarks">
+                कैफियत:आमा वुवाको नागरिकता नुम्बर उल्लेख नभएको (Remarks : Citizenship number of father and mother is not available)
+            </div>
+            <div id="footer">
+                <div class="official_details">
+                    <div>
+                        सही(Signature):<img src="/Content/images/bab.jpg" width="170" height="40">
+                    </div>
+
+
+                    <div>
+                        <b> स्थानीय पंज्जीकाधिकारिको नाम:&nbsp; @Model.RFNameNepali   @Model.RMNameNepali   @Model.RLNameNepali</b>
+                    </div>
+                    <div>  <b> Name of Local Registrar: &nbsp;</b><b style="text-transform:uppercase;">@Model.RFNameEnglish   @Model.RMNameEnglish   @Model.RLNameEnglish</b></div>
+
+
+
+
+                </div>
+                <div class="official_stamp">
+                    <div class="stamp">
+                        <div class="box"><img src="/Content/images/R.png" width="220" height="106"></div>
+
+                        <h4>कार्यालयको छाप/Official Stamp</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+
+    }
+
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.22/pdfmake.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<script type="text/javascript">
+    $("body").on("click", "#btnExport", function () {
+        html2canvas($('#det')[0], {
+            onrendered: function (canvas) {
+                var data = canvas.toDataURL();
+                var docDefinition = {
+                    content: [{
+                        image: data,
+                        width: 525,
+                        height: 720
+                    }]
+                };
+                pdfMake.createPdf(docDefinition).download("BirthCertificate.pdf");
+            }
+        });
+    });
+</script>

@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	margin-top: 50px;
+}
+
+.page-logo img{
+	width: 100px;
+    padding-top: 30px;
+}
+
+.local-address h3, .local-address h4, .local-address h5, .subject-line p, .letter-body .land-details {
+	text-align: center;
+}
+
+.letter-head{
+	margin-top: 10px;
+}
+
+p{
+	font-size: 15px;
+}
+.date p, .letter-body .approval-sign p{
+	text-align: right;
+}
+
+.subject-line{
+	margin-bottom: 20px;
+}
+
+.subject-line p{
+    font-size: 22px;
+}
+
+    
+.letter-body{
+    margin-bottom: 50px;
+}
+.letter-body p{
+	text-align: justify;
+}
+
+.divTable
+    {
+        display:  table;
+        width:100%;
+        background-color:#fff;
+    }
+
+    .divRow
+    {
+       display:table-row;
+       width:50%;
+    }
+
+    .divCell
+    {
+        width: 100%;
+        float: left; 
+        background-color: #fff;  
+        padding: 5px 15px;
+        font-size: 15px;
+    }
+
+    .divTable, .divCell{
+    	border: 1px solid #ddd;
+  		border-collapse: collapse;
+    }
+
+.approval-sign{
+	padding-top: 120px;
+}
+.bodhartha-line{
+    padding-top: 50px;
+}
+
+.footer-container .row{
+    border-top: 1px solid #000;
+}
+.footer-content{
+    margin: 0 auto;
+}
+.footer-content p:first-child {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+footer {
+    /*position: absolute;*/
+    width: 100%;   
+    /*bottom: 0;*/
+}
+
+@media print{
+    footer {
+        position: absolute;
+        width: 100%;   
+        bottom: 0;
+    }
+}
+
+.bg-logo{
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+}
+
+.bg-logo img{
+    width: 100%;
+    z-index: -1;
+    opacity: 0.1;
+}

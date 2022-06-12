@@ -1,0 +1,162 @@
+﻿@model IEnumerable<EGovProject.Models.ViewModel.DeathModel>
+@{
+    ViewData["Title"] = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int Counter = 1;
+}
+
+
+
+
+
+<style>
+
+
+    .table {
+        overflow-y: auto;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+        table thead th,
+        table tbody td {
+            padding: 15px;
+            border: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        table thead th {
+            background: #1861ac;
+            color: white;
+            font-size: 16px;
+            position: sticky;
+            top: -1%;
+        }
+
+        table tbody td {
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            border-left: 1px solid rgba(0,0,0,0.1);
+        }
+</style>
+
+
+<section class="page-title-breadcrumb">
+    <div class="container flex-container">
+        <div class="breadcrumb">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> »  मृत्यु दर्ताको सूची</div>
+        </div>
+    </div>
+</section>
+
+<div>
+    <h1> मृत्यु दर्ताको सूची </h1>
+    <p>
+        <a asp-action="index" class="btn btn-success">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    दर्ता न./ Registration No
+                </th>
+                <th>
+                    दर्ता मिति / Registration Date
+                </th>
+
+                <th>
+                    पुरा नाम/ Full Name
+                </th>
+
+
+                <th>
+                    जन्म मिति / DOB
+                </th>
+
+
+                <th>
+                    मृत्यु स्थान/ Birth place
+                </th>
+
+
+                <th>
+                    बुबाको नाम / Father's Name
+                </th>
+
+                <th>
+                    आमाको नाम / Mother's Name
+                </th>
+
+
+                <th>
+                    स्थानीय पञ्जीकाधिकारीको नाम:/ Registrar's Name
+                </th>
+                <th>
+
+                </th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RegistrationNumber)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RegistrationDateNepali) B.S/
+                        @Html.DisplayFor(modelItem => item.RegistrationDateEnglish) A.D
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FNameNepali)   @Html.DisplayFor(modelItem => item.MNameNepali)   @Html.DisplayFor(modelItem => item.LNameNepali) /
+                        @Html.DisplayFor(modelItem => item.FNameEnglish)  @Html.DisplayFor(modelItem => item.MNameEnglish)    @Html.DisplayFor(modelItem => item.LNameEnglish)
+                    </td>
+
+
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NDOBBSY) - @Html.DisplayFor(modelItem => item.NDOBBSM)-@Html.DisplayFor(modelItem => item.NDOBBSD)B.S /
+                        @Html.DisplayFor(modelItem => item.EDOBBSY)-@Html.DisplayFor(modelItem => item.EDOBBSM)- @Html.DisplayFor(modelItem => item.EDOBBSD)A.D
+                    </td>
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeathPlace)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FatherFNepali)  @Html.DisplayFor(modelItem => item.FatherMNepali) @Html.DisplayFor(modelItem => item.FatherLNepali)/
+                        @Html.DisplayFor(modelItem => item.FatherFEnglish)  @Html.DisplayFor(modelItem => item.FatherMEnglish)  @Html.DisplayFor(modelItem => item.FatherLEnglish)
+                    </td>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.MotherFNepali)   @Html.DisplayFor(modelItem => item.MotherMNepali)    @Html.DisplayFor(modelItem => item.MotherLNepali)/
+                        @Html.DisplayFor(modelItem => item.MotherFEnglish)   @Html.DisplayFor(modelItem => item.MotherMEnglish)   @Html.DisplayFor(modelItem => item.MotherLEnglish)
+                    </td>
+
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RFNameNepali)  @Html.DisplayFor(modelItem => item.RMNameNepali) @Html.DisplayFor(modelItem => item.RLNameNepali)/
+                        @Html.DisplayFor(modelItem => item.RFNameEnglish)  @Html.DisplayFor(modelItem => item.RMNameEnglish)  @Html.DisplayFor(modelItem => item.RLNameEnglish)
+                    </td>
+                    <td>
+                        @Html.ActionLink("", "Edit", new { deathId = item.DeathId }, new { @class = "fa fa-edit" }) |
+                        @*  @Html.ActionLink("", "DeathCertificate", new { deathId = item.DeathId}, new { @class = "fa fa-info" }) |*@
+                        @Html.ActionLink("", "Delete", new { registrationNumber = item.RegistrationNumber }, new { @class = "fa fa-trash" })
+                    </td>
+
+                </tr>
+                Counter++;
+            }
+        </tbody>
+    </table>
+</div>

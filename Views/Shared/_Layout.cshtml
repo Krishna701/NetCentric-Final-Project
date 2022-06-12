@@ -1,0 +1,546 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using EGovProject.Areas.Identity.Data
+@inject SignInManager<LoginRegistrationUser> SignInManager
+@inject UserManager<LoginRegistrationUser> UserManager
+@{
+    var user = await UserManager.GetUserAsync(User);
+}
+
+
+<html>
+<head>
+    <title>Mandandeupur Municipality |Data Digitization</title>
+    <link rel="stylesheet" type="text/css" href="css2/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fonts2/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+    <link href="~/fontawesome/font-awesome-5-0-1/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/system/system.base.css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/system/system.menus.css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/system/system.messages.css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/system/system.theme.css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/views_slideshow.css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/field/theme/field.css">
+    <link rel="stylesheet" type="text/css" href="~/h/modules/node/node.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/poll/poll.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/search/search.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/user/user.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/views.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/ckeditor/css/ckeditor.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/colorbox_style.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/ctools/css/ctools.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/locale/locale.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/text_resize.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/views_slideshow_controls_text.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/views_slideshow_cycle.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/quicktabs.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/modules/basic.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/js/vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/js/vendor/bootstrap/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/js/vendor/slick-1-9/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/js/vendor/slick-1-9/slick.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/common/main.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/common/pp.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/common/header.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/common/footer.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/theme/theme-red-blue.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/pages/home-Municipality.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/pages/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/common/inner-page.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/pages/note.css" />
+    <link rel="stylesheet" type="text/css" href="~/h/css/pages/contact.css" />
+  
+
+</head>
+<body class="html front not-logged-in two-sidebars page-node i18n-en footer-columns">
+    <div id="skip-link">
+        <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="sticky">
+          
+
+            <a asp-action="ComplainList" asp-controller="Sidebar">
+                <img src="/h/Group_215.png">            <span>Registered Complain List</span>
+            </a>
+            <a asp-action="ProblemList" asp-controller="Sidebar">
+                <img src="/h/Group_217.png"> <span>Registered Problems List</span>
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="sticky">
+            <a asp-action="FAQ" asp-controller="Sidebar">
+                <img src="/h/faq.png">
+                <span>FAQs</span>
+            </a>
+
+            <a asp-action="Complain" asp-controller="Sidebar">
+                <img src="/h/Group_215.png">            <span>Complain</span>
+            </a>
+            <a asp-action="Problem" asp-controller="Sidebar">
+                <img src="/h/Group_217.png"> <span>Problems</span>
+            </a>
+        </div>
+
+    }
+    <header>
+        <button id="menu-toggle">
+            <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="cross">
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="header-top">
+            <div class="container flex-container">
+                <div class="top-left">
+                    <a href="https://www.facebook.com/gokarneshwor.municipality/">
+                        <img src="/h/fb.png">
+                    </a>
+
+                    <a href="https://twitter.com/gokarneshwor1">
+                        <img src="/h/tter.png">
+                    </a>
+
+
+                </div>
+                <div class="top-right">
+
+                    <a href="tel:फोन न०११ ४१२०५९,  ०११ ४१२०५९   ">
+                        <img src="/h/Path_39.png">
+                        <span>फोन न+०११ ४१२०५८,  +०११ ४१२०५९   </span>
+                    </a>
+                    <a href="mailto:arjunshrestha817@gmail.com ">
+                        <img src="/h/Path_38.png">
+                        <span>MANDANDEUPUR817@gmail.com </span>
+                    </a>
+                    <a href="tel:फ्याक्स:  ०११ ४१२०५७">
+                        <img src="/h/Group_142.png">
+                        <span>फ्याक्स: ०११ ४१२०५७</span>
+                    </a>
+
+
+                    <partial name="_LoginPartial.cshtml" />
+
+                    <!-- <button class="btn-search-toggler">
+                        <img src="sites/all/themes/newmun/img/icons/icon-search.svg" alt="" class="svg">
+                    </button> -->
+                </div>
+            </div>
+
+        </div>
+        <nav class="header-bottom">
+            <div class="container flex-container">
+                <div class="layer-1">
+                    <a class="logo-mobile" href="~/">
+                        <img src="/h/new_logo.png">
+                    </a>
+                    <a class="logo-main" href="~/">
+                        <img src="/h/new_logo.png">
+                        <span>
+                            <span>मण्डनदेउपुर नगरपालिका</span>
+                            <span>नगरपालिका कार्यालय<br>बागमती प्रदेश,रानीटार<br>काभ्रे, नेपाल</span>
+                        </span>
+                    </a>
+
+
+                    <div class="flex-row pull-right low-right">
+                        <div class="first">
+                            <div class="translate">
+                                <ul class="language-switcher-locale-url">
+                                </ul>
+                                <div class="region region-search-box">
+                                    <div class="region region-search-box">
+                                        <div id="block-search-form" class="block block-search">
+
+
+                                            <div class="content">
+                                                <form action="https://www.google.com/search" method="get" id="search-block-form" accept-charset="UTF-8">
+                                                    <div>
+                                                        <div class="container-inline">
+                                                            <h2 class="element-invisible">Search form</h2>
+                                                            <div class="form-item form-type-textfield form-item-search-block-form">
+                                                                <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+                                                                <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="q" size="15" maxlength="128" class="form-text">
+                                                            </div>
+                                                            <div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit"></div><input type="hidden" name="form_build_id" value="form-0diFcKHYnfLsitLs56lRbpWkrdAlQir81qHIsfEIDTs">
+                                                            <input type="hidden" name="form_id" value="search_block_form">
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="second">
+                            <img style="max-width:100px;" src="/h/flag.gif" alt="Local Government Logo">
+                        </div>
+
+                        <!--?php// endif; ?-->
+                    </div>
+                </div>
+
+
+                <div class="layer-2" style="
+        padding: 4 10px;
+        margin: 0 auto;
+        line-height: 47px;
+        margin-bottom: 2px;
+        background: url(/Content/images/nav-bg.png) repeat-x 0 0;">
+                    <div class="col-md-12">
+                        <div class="region region-navigation">
+                            <div id="block-system-main-menu" class="block block-system block-menu">
+
+                                @if (SignInManager.IsSignedIn(User))
+                                {
+                                    <div class="content">
+                                        <ul class="main-nav">
+                                            <li><a href="~/" title="" class="active">गृहपृष्ठ</a></li>
+                                           
+
+                                            <li class="has-child">
+                                                <a href="javascript:void(0)" title="" class="active">विधुतीय शुसासन सेवा</a>
+                                                <ul class="custom-drop-menu gradient-bg-grey">
+                                                    <li><a asp-action="index" asp-controller="birth" title="">जन्म दर्ता</a></li>
+                                                    <li><a asp-action="index" asp-controller="death" title="">मृत्यु दर्ता</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-child">
+                                                <a href="javascript:void(0)" title="" class="active">प्रमणपत्र सेवा</a>
+                                                <ul class="custom-drop-menu gradient-bg-grey">
+                                                    <li><a asp-action="birthcertificateindex" asp-controller="birth" title="">जन्म दर्ता प्रमणपत्र</a></li>
+                                                    <li><a asp-action="deathcertificateindex" asp-controller="death" title="">मृत्यु दर्ता प्रमणपत्र</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-child">
+                                                <a href="javascript:void(0)" title="" class="active">दर्ताहरुको सूची</a>
+                                                <ul class="custom-drop-menu gradient-bg-grey">
+
+                                                    <li>
+                                                        <a asp-action="list" asp-controller="birth">जन्म दर्ताहरुको सूची</a>
+                                                    </li>
+                                                    <li>
+                                                        <a asp-action="list" asp-controller="death">मृत्यु दर्ताहरुको सूची</a>
+                                                    </li>
+
+
+                                                </ul>
+                                            </li>
+
+                                            <li><a asp-action="contactlist" asp-controller="contact">सम्पर्क सूची</a></li>
+                                            <li><a href="~/h/palika.pdf" title="">पुन:निर्माण प्रोफाईल</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                }
+                                else
+                                {
+                                    <div class="content">
+                                        <ul class="main-nav">
+                                            <li><a href="~/" title="" class="active">गृहपृष्ठ</a></li>
+                                            <li class="has-child">
+                                                <a href="javascript:void(0)" title="" class="active">परिचय</a>
+                                                <ul class="custom-drop-menu gradient-bg-grey">
+                                                    <li><a asp-action="Brief" asp-controller="About">संक्षिप्त परिचय</a></li>
+                                                    <li>
+                                                        <a asp-action="map" asp-controller="About">श्रोत नक्सा</a>
+                                                    </li>
+                                                    <li>
+                                                        <a asp-action="places" asp-controller="About">महत्वपूर्ण स्थानहरु</a>
+                                                    </li>
+
+
+                                                </ul>
+                                            </li>
+
+                                            <li class="has-child">
+                                                <a href="javascript:void(0)" title="" class="active">विधुतीय शुसासन सेवा</a>
+                                                <ul class="custom-drop-menu gradient-bg-grey">
+                                                    <li><a asp-action="index" asp-controller="birth" title="">जन्म दर्ता</a></li>
+                                                    <li><a asp-action="index" asp-controller="death" title="">मृत्यु दर्ता</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="has-child">
+                                                <a href="javascript:void(0)" title="" class="active">प्रमणपत्र सेवा</a>
+                                                <ul class="custom-drop-menu gradient-bg-grey">
+                                                    <li><a asp-action="birthcertificateindex" asp-controller="birth" title="">जन्म दर्ता प्रमणपत्र</a></li>
+                                                    <li><a asp-action="deathcertificateindex" asp-controller="death" title="">मृत्यु दर्ता प्रमणपत्र</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li><a asp-action="contact" asp-controller="contact">सम्पर्क</a></li>
+                                            <li><a href="~/h/palika.pdf" title="">पुन:निर्माण प्रोफाईल</a></li>
+
+
+                                        </ul>
+                                    </div>
+
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <span class="active-hover"></span>
+        </nav>
+    </header>
+    <section class="header-notice">
+
+        <div class="notice">
+            <div class="region region-newsticker">
+                <div id="block-views-news-and-events-block" class="block block-views">
+                    <div class="container flex-container font-popins">
+                        <h4>Live News</h4>
+                        <div class="notice-slider" style="position: absolute;margin-top: 7px; margin-left: 90px;">
+
+
+                            <div class="content">
+                                <marquee id="test" behavior="scroll" scrolldelay="100" scrollamount="4" onmouseover="document.all.test.stop()" onmouseout="document.all.test.start()">
+                                    <div class="view view-news-and-events view-id-news_and_events view-display-id-block view-dom-id-46a764c16116067de26bfac531c9a2d0">
+
+
+
+                                        <div class="view-content">
+                                            <div class="views-row views-row-1 views-row-odd views-row-first">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%8B%E0%A4%AD%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF-%E0%A4%AC%E0%A4%BF%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A6%E0%A4%95%E0%A5%8B-astrazeneca-%E0%A4%96%E0%A5%8B%E0%A4%AA%E0%A4%95%E0%A5%8B-%E0%A4%A6%E0%A5%8B%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%8B-%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4">हजुरलाई मण्डनदेउपुर नगरपालिकोको वेबसाइटमा स्वागत छ!!!</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-2 views-row-even">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%8B%E0%A4%AD%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF-%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%95%E0%A5%8B-%E0%A4%AD%E0%A5%87%E0%A4%B0%E0%A5%8B%E0%A4%B8%E0%A5%87%E0%A4%B2-%E0%A4%96%E0%A5%8B%E0%A4%AA%E0%A4%95%E0%A5%8B-%E0%A4%A6%E0%A5%8B%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%8B-%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">अब हजुरहरुले विधुतीय शुसासन सेवा मार्फत जन्म र मृत्यु दर्ता गराउन सक्नुहुनेछ। </a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-3 views-row-odd">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE-%E0%A4%9C%E0%A4%A8%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%9C%E0%A5%8B%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4"> जन्म र मृत्यु दर्ता प्रमाणपत्र लिनलाई नाभिगेशन बारको "प्रमणपत्र सेवामा" थिच्नुहोस् । </a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-4 views-row-even">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BF%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95-%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A4%B0-%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3-%E0%A4%B8%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%B0-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">राष्ट्रिय परिचयपत्र बनाउन online अथवा वडा कार्यालय मा सम्पर्क गर्नुहोस्।</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-5 views-row-odd ">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%81-%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%95%E0%A5%8B-%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%9A%E0%A4%BE%E0%A4%A1-%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%A4%E0%A5%80%E0%A4%9C-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE-%E0%A4%95%E0%A5%8B-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%AE%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%B2%E0%A4%AE%E0%A4%AF-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%95%E0%A4%BE%E0%A4%AE%E0%A4%A8%E0%A4%BE-%E0%A5%A4">कोभिड-१९ विरुद्धको भेरोसेल खोपको पहिलो मात्रा लगाउने बारेको सूचना !!!</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-6 views-row-even ">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%81-%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%95%E0%A5%8B-%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%9A%E0%A4%BE%E0%A4%A1-%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%A4%E0%A5%80%E0%A4%9C-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE-%E0%A4%95%E0%A5%8B-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%AE%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%B2%E0%A4%AE%E0%A4%AF-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%95%E0%A4%BE%E0%A4%AE%E0%A4%A8%E0%A4%BE-%E0%A5%A4">कोभिड-१९ विरुद्धको भेरोसेल खोपको दोश्रो मात्रा लगाउने बारेको सूचना !!!</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-7 views-row-odd ">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%81-%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%95%E0%A5%8B-%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%9A%E0%A4%BE%E0%A4%A1-%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%A4%E0%A5%80%E0%A4%9C-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE-%E0%A4%95%E0%A5%8B-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%AE%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%B2%E0%A4%AE%E0%A4%AF-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%95%E0%A4%BE%E0%A4%AE%E0%A4%A8%E0%A4%BE-%E0%A5%A4">आउदै गरेको राष्ट्रिय जनगणना २०७८मा सहभागी हुनुहोस्।</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-8 views-row-even">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/content/%E0%A4%B8%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%B5%E0%A4%9C%E0%A4%A8%E0%A4%BF%E0%A4%95-%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A4%BE-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE%E0%A5%A4-0">सार्वजनिक विदा सम्बन्धी सूचना।</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-9 views-row-odd">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/content/%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3-%E0%A4%89%E0%A4%AA%E0%A4%B2%E0%A4%AC%E0%A5%8D%E0%A4%A7-%E0%A4%97%E0%A4%B0%E0%A4%BE%E0%A4%87%E0%A4%A6%E0%A4%BF%E0%A4%A8%E0%A5%81-%E0%A4%B9%E0%A5%81%E0%A4%A8">विवरण उपलब्ध गराइदिनु हुन।</a></span>  </div>
+                                            </div>
+                                            <div class="views-row views-row-10 views-row-even views-row-last">
+
+                                                <div class="views-field views-field-title">        <span class="field-content"><a href="/content/%E0%A4%B5%E0%A4%BF%E0%A4%A6%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF%E0%A4%95%E0%A5%8B-%E0%A4%AA%E0%A4%A0%E0%A4%A8%E0%A4%AA%E0%A4%BE%E0%A4%A0%E0%A4%A8-%E0%A4%B8%E0%A4%9E%E0%A5%8D%E2%80%8D%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%AE%E0%A4%BE%E0%A5%A4">विद्यालयको पठनपाठन सञ्&zwj;चालन सम्बन्धमा।</a></span>  </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer style="background-image: url(/h/n.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-3 col-sm-6">
+
+                    <div class="region region-footer-firstcolumn">
+                        <div id="block-menu-menu-notices" class="block block-menu">
+
+                            <h3 class="section-title">
+                                <span>
+                                    Own Links
+                                </span>
+                            </h3>
+
+
+                            <div class="content">
+                                <ul class="menu">
+                                 
+                                    <li class="leaf"><a href="/about/briefenglish" title="">Introduction</a></li>
+                                    <li class="leaf"><a href="/birth/index" title="">Birth Registration</a></li>
+                                    <li class="leaf"><a href="/death/index" title="">Death Registration</a></li>
+                                    <li class="leaf"><a href="/birth/birthcertificateindex" title="">Birth Certificate</a></li>
+                                    <li class="leaf"><a href="/death/deathcertificateindex" title="">Death Certificate</a></li>
+                                    <li class="leaf"><a href="/contact/contact" title="">Contact</a></li>
+                                    <li class="last leaf"><a href="~/h/palika.pdf" title="">Reconstruction Profile</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-sm-6">
+
+                    <div class="region region-footer-secondcolumn">
+                        <div id="block-menu-menu-egov-services" class="block block-menu">
+
+                            <h3 class="section-title">
+                                <span>
+                                    मण्डनदेउपुर नगरपालिकाको
+                                </span>
+                            </h3>
+                            <h3 class="section-title">
+                                <span>
+                                    केही नारा
+                                </span>
+                            </h3>
+
+
+                            <div class="content">
+                                <ul class="menu">
+                                    <li class=" leaf">"हाम्रो मण्डन ,राम्रो मण्डन"</li>
+                                    <li class="leaf">"सुन्दरताले सजिएको सुनौलो नगरपालिका"</li>
+                                    <li class="leaf">
+                                      
+
+                                            " देउपुर र मण्डन - कृषि र पर्यटन "
+
+                                      
+                                    </li>
+                                    <li class="last leaf">"सधैँ जनताको सेवामा तत्पर"</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-3 col-sm-6">
+
+                    <div class="region region-footer-thirdcolumn">
+                        <div id="block-menu-menu-report" class="block block-menu">
+
+                            <h3 class="section-title">
+                                <span>
+                                    Our Location
+                                </span>
+                            </h3>
+
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27331.539094216936!2d85.61397010337232!3d27.697432360673712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1632369998489!5m2!1sen!2snp" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-3 col-sm-6">
+
+                    <div class="region region-footer-fourthcolumn">
+                        <div id="block-block-4" class="block block-block">
+
+                            <h3 class="section-title">
+                                <span>
+                                    Contact Us
+                                </span>
+                            </h3>
+
+
+                            <div class="content">
+                                <p>Street Address:Mandandeupur- 9,Ranitar</p>
+                                <p>Kavre, Bagmati Pradesh, Nepal</p>
+                                <p>Phone: <a href="tel:011412058">011-412058</a>, <a href="tel:011412059">011-412059</a></p>
+                                <p>Fax :&nbsp;&nbsp;<a href="011412057">011412057</a></p>
+                                <p>Email: <a href="mailto:arjunshrestha817@gmail.com">arjunshrestha817@gmail.com</a></p>
+                                <p>Toll Free No: <a href="tel:16600137888">0000111100</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="footer-bottom">© 2021&nbsp; Mandandeupur Municipality,&nbsp;E-Governance Project Team</p>
+        </div>
+    </footer>
+
+
+    <div class="overylay-zoom"></div>
+
+
+    <script src="https://connect.facebook.net/en_US/sdk.js?hash=f08bf98503730ac4422641bc288c29c5" async="" crossorigin="anonymous"></script>
+    <script id="facebook-jssdk" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v3.0"></script>
+    <script type="text/javascript" src="/h/jjs/js_yMSKTzBO0KmozyLwajzFOrrt_kto_9mtccAkb0rm7gc.js"></script>
+    <script type="text/javascript" src="/h/jjs/js_82BGcKa1QeJa_t74Llt_jtKzuNSJKAzULHzrDMGFBs8.js"></script>
+    <script type="text/javascript" src="/h/jjs/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+    <script type="text/javascript" src="/h/jjs/js_QKGcbQyY3fkhRlotC7hhagE5lRooaJhlnx95eK3B0XA.js"></script>
+    <script type="text/javascript" src="/JS3/1.js"></script>
+    <script type="text/javascript" src="/JS3/2.js"></script>
+    <script type="text/javascript" src="/JS3/3.js"></script>
+    <script type="text/javascript" src="/JS3/4.js"></script>
+    <script type="text/javascript" src="/JS3/5.js"></script>
+    <script type="text/javascript" src="/JS3/6.js"></script>
+
+
+    <script type="text/javascript">
+<!--    //--><![CDATA[//><!--
+        var text_resize_scope = "main, .view-content, h2, .content";
+        var text_resize_minimum = "16";
+        var text_resize_maximum = "25";
+        var text_resize_line_height_allow = 0;
+        var text_resize_line_height_min = "16";
+        var text_resize_line_height_max = "36";
+        //--><!]]>
+    </script>
+    <script type="text/javascript" src="/h/jjs/js_9rl3pLCVucVjw0v1wuvtAjsZ4fyD4tqnDdRLSyctru0.js"></script>
+    <script type="text/javascript" src="/h/jjs/js_NAdtySDbA6lFVl20MgUrWMtm1q_WpFVlaxStWfLbCDU.js"></script>
+    <script type="text/javascript">
+<!--    //--><![CDATA[//><!--
+        jQuery.extend(Drupal.settings, { "basePath": "\/", "pathPrefix": "en\/", "ajaxPageState": { "theme": "newmun", "theme_token": "J9nSeOfAEwtP1wnf8RX_8Avzv5ImomE8swzkwO--Hf8", "js": { "misc\/jquery.js": 1, "misc\/jquery-extend-3.4.0.js": 1, "misc\/jquery-html-prefilter-3.5.0-backport.js": 1, "misc\/jquery.once.js": 1, "misc\/drupal.js": 1, "misc\/jquery.cookie.js": 1, "sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js": 1, "sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js": 1, "misc\/progress.js": 1, "sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js": 1, "sites\/all\/modules\/colorbox\/js\/colorbox.js": 1, "sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js": 1, "0": 1, "sites\/all\/modules\/text_resize\/text_resize.js": 1, "sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js": 1, "sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js": 1, "sites\/all\/modules\/quicktabs\/js\/quicktabs.js": 1, "sites\/all\/themes\/newmun\/js\/common\/jquery.min.js": 1, "sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/js\/bootstrap.min.js": 1, "sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/js\/bootstrap-tabcollapse.js": 1, "sites\/all\/themes\/newmun\/js\/vendor\/slick-1-9\/slick.min.js": 1, "sites\/all\/themes\/newmun\/js\/vendor\/malihu-custom-scroll\/jquery.mCustomScrollbar.concat.min.js": 1, "sites\/all\/themes\/newmun\/js\/common\/main.js": 1, "sites\/all\/themes\/newmun\/js\/pages\/home-municipality.js": 1, "sites\/all\/themes\/newmun\/js\/pages\/gallery.js": 1, "sites\/all\/themes\/newmun\/js\/vendor\/lightgallery\/lightgallery-all.js": 1, "sites\/all\/themes\/newmun\/js\/pages\/home-CM.js": 1, "sites\/all\/themes\/newmun\/js\/vendor\/easypaginate\/jquery.easyPaginate.js": 1 }, "css": { "modules\/system\/system.base.css": 1, "modules\/system\/system.menus.css": 1, "modules\/system\/system.messages.css": 1, "modules\/system\/system.theme.css": 1, "sites\/all\/modules\/views_slideshow\/views_slideshow.css": 1, "modules\/field\/theme\/field.css": 1, "modules\/node\/node.css": 1, "modules\/poll\/poll.css": 1, "modules\/search\/search.css": 1, "modules\/user\/user.css": 1, "sites\/all\/modules\/views\/css\/views.css": 1, "sites\/all\/modules\/ckeditor\/css\/ckeditor.css": 1, "sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css": 1, "sites\/all\/modules\/ctools\/css\/ctools.css": 1, "modules\/locale\/locale.css": 1, "sites\/all\/modules\/text_resize\/text_resize.css": 1, "sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css": 1, "sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css": 1, "sites\/all\/modules\/quicktabs\/css\/quicktabs.css": 1, "sites\/all\/modules\/quicktabs\/quicktabs_tabstyles\/tabstyles\/basic\/basic.css": 1, "sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/css\/bootstrap.min.css": 1, "sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/css\/bootstrap-theme.min.css": 1, "sites\/all\/themes\/newmun\/js\/vendor\/slick-1-9\/slick.css": 1, "sites\/all\/themes\/newmun\/js\/vendor\/slick-1-9\/slick-theme.css": 1, "sites\/all\/themes\/newmun\/js\/vendor\/malihu-custom-scroll\/jquery.mCustomScrollbar.min.css": 1, "sites\/all\/themes\/newmun\/css\/common\/main.css": 1, "sites\/all\/themes\/newmun\/css\/common\/pp.css": 1, "sites\/all\/themes\/newmun\/css\/common\/header.css": 1, "sites\/all\/themes\/newmun\/css\/common\/footer.css": 1, "sites\/all\/themes\/newmun\/css\/theme\/theme-red-blue.css": 1, "sites\/all\/themes\/newmun\/css\/pages\/home-Municipality.css": 1, "sites\/all\/themes\/newmun\/css\/pages\/gallery.css": 1, "sites\/all\/themes\/newmun\/css\/common\/inner-page.css": 1, "sites\/all\/themes\/newmun\/css\/pages\/note.css": 1, "sites\/all\/themes\/newmun\/css\/pages\/contact.css": 1, "sites\/all\/themes\/newmun\/css\/ie.css": 1, "sites\/all\/themes\/newmun\/css\/ie6.css": 1 } }, "colorbox": { "opacity": "0.85", "current": "{current} of {total}", "previous": "\u00ab Prev", "next": "Next \u00bb", "close": "Close", "maxWidth": "98%", "maxHeight": "98%", "fixed": true, "mobiledetect": true, "mobiledevicewidth": "480px" }, "viewsSlideshow": { "slider-block_1": { "methods": { "goToSlide": ["viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle"], "nextSlide": ["viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle"], "pause": ["viewsSlideshowControls", "viewsSlideshowCycle"], "play": ["viewsSlideshowControls", "viewsSlideshowCycle"], "previousSlide": ["viewsSlideshowPager", "viewsSlideshowSlideCounter", "viewsSlideshowCycle"], "transitionBegin": ["viewsSlideshowPager", "viewsSlideshowSlideCounter"], "transitionEnd": [] }, "paused": 0 } }, "viewsSlideshowControls": { "slider-block_1": { "bottom": { "type": "viewsSlideshowControlsText" } } }, "viewsSlideshowCycle": { "#views_slideshow_cycle_main_slider-block_1": { "num_divs": 22, "id_prefix": "#views_slideshow_cycle_main_", "div_prefix": "#views_slideshow_cycle_div_", "vss_id": "slider-block_1", "effect": "scrollRight", "transition_advanced": 1, "timeout": 5000, "speed": 600, "delay": 0, "sync": 1, "random": 0, "pause": 1, "pause_on_click": 0, "play_on_hover": 0, "action_advanced": 0, "start_paused": 0, "remember_slide": 0, "remember_slide_days": 1, "pause_in_middle": 0, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "nowrap": 0, "pause_after_slideshow": 0, "fixed_height": 1, "items_per_slide": 1, "wait_for_image_load": 1, "wait_for_image_load_timeout": 3000, "cleartype": 0, "cleartypenobg": 0, "advanced_options": "{}" } }, "urlIsAjaxTrusted": { "\/en": true }, "quicktabs": { "qt_quick_tab": { "name": "quick_tab", "tabs": [{ "bid": "views_delta_budget_and_program-block", "hide_title": 1 }, { "bid": "views_delta_plan_and_projects-block", "hide_title": 1 }, { "bid": "views_delta_30864cbbfa852e38c54d1241a5189f6f", "hide_title": 1 }, { "bid": "views_delta_documents-block_1", "hide_title": 1 }], "viewsSlideshowCycle": { "#views_slideshow_cycle_main_slider-block_1": { "num_divs": 22, "id_prefix": "#views_slideshow_cycle_main_", "div_prefix": "#views_slideshow_cycle_div_", "vss_id": "slider-block_1", "effect": "scrollRight", "transition_advanced": 1, "timeout": 5000, "speed": 600, "delay": 0, "sync": 1, "random": 0, "pause": 1, "pause_on_click": 0, "play_on_hover": 0, "action_advanced": 0, "start_paused": 0, "remember_slide": 0, "remember_slide_days": 1, "pause_in_middle": 0, "pause_when_hidden": 0, "pause_when_hidden_type": "full", "amount_allowed_visible": "", "nowrap": 0, "pause_after_slideshow": 0, "fixed_height": 1, "items_per_slide": 1, "wait_for_image_load": 1, "wait_for_image_load_timeout": 3000, "cleartype": 0, "cleartypenobg": 0, "advanced_options": "{}" } } } } });
+        //--><!]]>
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.main-nav li.has-child>a').attr('href', 'javascript:void(0)');
+            $('ul.quicktabs-tabs.quicktabs-style-basic').attr('class', 'tab-default');
+            //$('div#quicktabs-container-quicktab').attr('class','tab-content tab-default-content');
+        });
+
+    </script>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+
+
+    <div id="cboxOverlay" style="display: none;"></div><div id="colorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cboxWrapper"><div><div id="cboxTopLeft" style="float: left;"></div><div id="cboxTopCenter" style="float: left;"></div><div id="cboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxMiddleLeft" style="float: left;"></div><div id="cboxContent" style="float: left;"><div id="cboxTitle" style="float: left;"></div><div id="cboxCurrent" style="float: left;"></div><button type="button" id="cboxPrevious"></button><button type="button" id="cboxNext"></button><button type="button" id="cboxSlideshow"></button><div id="cboxLoadingOverlay" style="float: left;"></div><div id="cboxLoadingGraphic" style="float: left;"></div></div><div id="cboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cboxBottomLeft" style="float: left;"></div><div id="cboxBottomCenter" style="float: left;"></div><div id="cboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><div id="fb-root" class=" fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

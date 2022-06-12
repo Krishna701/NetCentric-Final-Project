@@ -1,0 +1,81 @@
+.contact-info {
+    box-shadow: 1px 1px 9px -1px rgba(0, 0, 0, .3);
+}
+
+.map {
+    margin: 0 0 -7px;
+}
+
+.address-map {
+    padding: 40px 30px 40px 10px;
+}
+
+.address-map h3 {
+    margin: 0 0 20px;
+    color: #6a6a6a;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.address-map address {
+    margin: 0 0 15px;
+    padding: 12px 15px 9px;
+    color: #777;
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    line-height: 25px;
+}
+
+.address-map address label {
+    width: 12%;
+    margin: 0;
+    font-weight: 500;
+}
+
+.address-map hr {
+    margin: 5px 0 20px;
+}
+
+.btn-link {
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 5px 15px;
+    border: 1px solid #053775;
+    border-radius: 30px;
+    background-color: #053775;
+    color: #ffffff;
+}
+
+.btn-link:hover {
+    border: 1px solid #053775;
+    box-shadow: 0 0 10px 0 rgba(5, 55, 117, .5);
+}
+.address-map h4 {
+    color: #777777;
+}
+.circle-user {
+    width: 110px;
+    margin: 0 auto;
+}
+
+.circle-user figure {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 0 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .3);
+    overflow: hidden;
+}
+
+.circle-user figure img {
+    width: 100%;
+}
+
+.circle-user h5 {
+    color: #b4b4b4;
+    font-size: 14px;
+    font-weight: 500;
+}

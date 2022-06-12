@@ -1,0 +1,57 @@
+﻿@model EGovProject.Models.ViewModel.BirthModel
+
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<style>
+
+    .result-content {
+        background: #fff;
+        border-radius: 10px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -o-border-radius: 10px;
+        -ms-border-radius: 10px;
+        padding: 110px 120px;
+    }
+
+    h2 {
+        line-height: 1.66;
+        margin: 0;
+        padding: 0;
+        font-weight: 900;
+        color:darkblue;
+        font-family: 'Montserrat';
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+</style>
+<div class="result-content">
+
+
+    <form method="post" asp-action="BirthCertificate" class="signup-form"style="align-self:center;"  >
+        <h1 class="form-title">जन्मदर्ता प्रमाणपत्र खोज्ने फारम</h1>
+        <h5 class="form-title">कृपया  जन्म दर्ता नुम्बर लेखेर आफ्नो जन्म दर्ता प्रमाणपत्र खोज्नुहोस्। </h5>
+        <div class="input-group md-form from-sm form-2 pl-0">
+            <input name="regno" class="form-control" type="search" placeholder=" दर्ता नं. लेख्नुहोस्" aria-label="Search" value="" />
+            <input type="submit" value="Search" class="btn btn-primary" />
+        </div>
+    </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<section class="page-title-breadcrumb">
+    <div class="container flex-container">
+        <div class="breadcrumb">
+            <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » <a href="/search">Search</a> » <a href="/search/node">Content</a> » Search</div>
+        </div>
+    </div>
+</section>
+
+<section class=" introduction" style="margin-top:25px">
+    <div class="container">
+        <div class="row" style="margin-bottom:36px">
+            <div class="col-xs-12 col-sm-12 col-md-12{9">
+                <div class="intro">
+                    <h3 class="section-title border">
+                        <span>
+                            Search
+                        </span>
+                    </h3>
+
+                </div>
+
+                <div class="region region-content">
+                    <div id="block-system-main" class="block block-system">
+
+
+                        <div class="content">
+                            <form class="search-form" action="/search/node" method="post" id="search-form" accept-charset="UTF-8">
+                                <div>
+                                    <div class="container-inline form-wrapper" id="edit-basic">
+                                        <div class="form-item form-type-textfield form-item-keys">
+                                            <label for="edit-keys">Enter your keywords </label>
+                                            <input type="text" id="edit-keys" name="keys" value="tok" size="40" maxlength="255" class="form-text">
+                                        </div>
+                                        <input type="submit" id="edit-submit" name="op" value="Search" class="form-submit">
+                                    </div><input type="hidden" name="form_build_id" value="form-zFN5T6y8-yHPZFBddjuPJhs_6kJ17BvnKH64-14NhZM">
+                                    <input type="hidden" name="form_id" value="search_form">
+                                </div>
+                            </form>  <h2>Your search yielded no results</h2>
+                            <ul>
+                                <li>Check if your spelling is correct.</li>
+                                <li>Remove quotes around phrases to search for each word individually. <em>bike shed</em> will often show more results than <em>"bike shed"</em>.</li>
+                                <li>Consider loosening your query with <em>OR</em>. <em>bike OR shed</em> will often show more results than <em>bike shed</em>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs">
+                </div>
+
+            </div>
+            <!--	-->
+
+
+        </div>
+
+
+
+
+    </div>
+
+</section>

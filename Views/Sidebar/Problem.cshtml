@@ -1,0 +1,141 @@
+﻿@model EGovProject.Models.ViewModel.ProblemModel
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<main>
+
+
+    <section class="page-title-breadcrumb">
+        <div class="container flex-container">
+            <div class="breadcrumb">
+                <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/ne">Home</a> » समस्या दर्ता</div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" introduction" style="margin-top:25px">
+        <div class="container">
+            <div class="row" style="margin-bottom:36px">
+                <div class="col-xs-12 col-sm-12 col-md-12{9">
+                    <div class="intro">
+                        <h3 class="section-title border">
+                            <span>
+                                समस्या दर्ता
+                            </span>
+                        </h3>
+
+                    </div>
+
+                    <div class="region region-content">
+                        <div id="block-system-main" class="block block-system">
+
+
+                            <div class="content">
+                                <div id="node-268" class="node node-webform node-full clearfix" about="/ne/problem-registration" typeof="sioc:Item foaf:Document">
+
+                                    <span property="dc:title" content="समस्या दर्ता" class="rdf-meta element-hidden"></span>
+                                    <form class="webform-client-form webform-client-form-268" action="problem" method="post" id="webform-client-form-268" accept-charset="UTF-8">
+                                        <div>
+                                            <input type="hidden" asp-for="Id" class="form-control" required />
+                                            <div class="form-item webform-component webform-component-textfield webform-component--name-pr">
+                                                <label for="edit-submitted-name-pr">नाम </label>
+                                                <input asp-for="Name" type="text" id="edit-submitted-name-pr" value="" size="60" maxlength="128" class="form-text">
+                                            </div>
+                                            <div class="form-item webform-component webform-component-textfield webform-component--ward-pr">
+                                                <label for="edit-submitted-ward-pr">पुरा ठेगाना <span class="form-required" title="This field is required.">*</span></label>
+                                                <input asp-for="Address" required="required" type="text" id="edit-submitted-ward-pr" value="" size="60" maxlength="128" class="form-text required">
+                                            </div>
+                                            <div class="form-item webform-component webform-component-radios webform-component--type-pr">
+                                                <label for="edit-submitted-type-pr">प्रकार <span class="form-required" title="This field is required.">*</span></label>
+                                                <div asp-for="" id="edit-submitted-type-pr" class="form-radios">
+                                                    <div class="form-item form-type-radio form-item-submitted-type-pr">
+                                                        <input asp-for="Type" required="required" type="radio" id="edit-submitted-type-pr-1" value="अन्य" class="form-radio">  <label class="option" for="edit-submitted-type-pr-1">अन्य </label>
+
+                                                    </div>
+                                                    <div class="form-item form-type-radio form-item-submitted-type-pr">
+                                                        <input asp-for="Type" required="required" type="radio" id="edit-submitted-type-pr-2" value="पानी" class="form-radio">  <label class="option" for="edit-submitted-type-pr-2">पानी </label>
+
+                                                    </div>
+                                                    <div class="form-item form-type-radio form-item-submitted-type-pr">
+                                                        <input asp-for="Type" required="required" type="radio" id="edit-submitted-type-pr-3" value="बिजुली" class="form-radio">  <label class="option" for="edit-submitted-type-pr-3">बिजुली </label>
+
+                                                    </div>
+                                                    <div class="form-item form-type-radio form-item-submitted-type-pr">
+                                                        <input asp-for="Type" required="required" type="radio" id="edit-submitted-type-pr-4" value="सडक" class="form-radio">  <label class="option" for="edit-submitted-type-pr-4">सडक </label>
+
+                                                    </div>
+                                                    <div class="form-item form-type-radio form-item-submitted-type-pr">
+                                                        <input asp-for="Type" required="required" type="radio" id="edit-submitted-type-pr-5" value="स्वास्थ्य" class="form-radio">  <label class="option" for="edit-submitted-type-pr-5">स्वास्थ्य </label>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-item webform-component webform-component-textarea webform-component--detail-pr">
+                                                <label for="edit-submitted-detail-pr">विवरण <span class="form-required" title="This field is required.">*</span></label>
+                                                <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea"><textarea asp-for="Details" required="required" id="edit-submitted-detail-pr" cols="60" rows="5" class="form-textarea required"></textarea><div class="grippie"></div></div>
+                                            </div>
+
+                                            <div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit"></div>
+                                        </div>
+                                    </form>  <div class="content clearfix">
+
+                                    </div>
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs">
+                    </div>
+
+                </div>
+                <!--	-->
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <section style="margin-top:20px">
+
+        <div id="blocks-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <div id="workflow" class="clearfix">
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                    </div>
+
+                    <div id="triptych" class="clearfix">
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                    </div>
+
+                </div>
+            </div> <!-- /#page, /#page-wrapper -->
+        </div> <!-- /#triptych, /#blocks-wrapper -->
+
+
+    </section>
+
+
+
+
+
+
+</main>

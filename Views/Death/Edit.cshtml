@@ -1,0 +1,1007 @@
+﻿@model EGovProject.Models.ViewModel.DeathModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 style="text-align:center;">प्रमाणिकरण प्रकिया</h1>
+<hr />
+
+<head>
+
+    <link rel="stylesheet" href="~/index.css">
+    <style>
+    </style>
+</head>
+<body>
+    <form asp-action="Edit">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label hidden asp-for="DeathId" class="control-label"></label>
+            <input type="hidden" asp-for="DeathId" class="form-control" />
+            <span asp-validation-for="DeathId" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RegistrationNumber" class="control-label"></label>
+            <input type="hidden" asp-for="RegistrationNumber" class="form-control" />
+            <span asp-validation-for="RegistrationNumber" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RegistrationDateNepali" class="control-label"></label>
+            <input type="hidden" asp-for="RegistrationDateNepali" class="form-control" />
+            <span asp-validation-for="RegistrationDateNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RegistrationDateEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="RegistrationDateEnglish" class="form-control" />
+            <span asp-validation-for="RegistrationDateEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="IdentityNo" class="control-label"></label>
+            <input type="hidden" asp-for="IdentityNo" class="form-control" />
+            <span asp-validation-for="IdentityNo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DProvince" class="control-label"></label>
+            <input type="hidden" asp-for="DProvince" class="form-control" />
+            <span asp-validation-for="DProvince" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DVDC" class="control-label"></label>
+            <input type="hidden" asp-for="DVDC" class="form-control" />
+            <span asp-validation-for="DVDC" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DDistrict" class="control-label"></label>
+            <input type="hidden" asp-for="DDistrict" class="form-control" />
+            <span asp-validation-for="DDistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DWard" class="control-label"></label>
+            <input type="hidden" asp-for="DWard" class="form-control" />
+            <span asp-validation-for="DWard" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DCtznNo" class="control-label"></label>
+            <input type="hidden" asp-for="DCtznNo" class="form-control" />
+            <span asp-validation-for="DCtznNo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Dctzdistrict" class="control-label"></label>
+            <input type="hidden" asp-for="Dctzdistrict" class="form-control" />
+            <span asp-validation-for="Dctzdistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="EDeathDate" class="control-label"></label>
+            <input type="hidden" asp-for="EDeathDate" class="form-control" />
+            <span asp-validation-for="EDeathDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="NDeathDate" class="control-label"></label>
+            <input type="hidden" asp-for="NDeathDate" class="form-control" />
+            <span asp-validation-for="NDeathDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DeathDateReg" class="control-label"></label>
+            <input type="hidden" asp-for="DeathDateReg" class="form-control" />
+            <span asp-validation-for="DeathDateReg" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DeathPlace" class="control-label"></label>
+            <input type="hidden" asp-for="DeathPlace" class="form-control" />
+            <span asp-validation-for="DeathPlace" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DeathReason" class="control-label"></label>
+            <input type="hidden" asp-for="DeathReason" class="form-control" />
+            <span asp-validation-for="DeathReason" class="text-danger"></span>
+        </div>
+        <div class="form-group form-check">
+            <label hidden class="form-check-label">
+                <input type="hidden" class="form-check-input" asp-for="IsMarried" /> @Html.DisplayNameFor(model => model.IsMarried)
+            </label>
+        </div>
+        <div class="form-group form-check">
+            <label hidden class="form-check-label">
+                <input type="hidden" class="form-check-input" asp-for="IsVerified" /> @Html.DisplayNameFor(model => model.IsVerified)
+            </label>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DReport" class="control-label"></label>
+            <input type="hidden" asp-for="DReport" class="form-control" />
+            <span asp-validation-for="DReport" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DWFullNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="DWFullNameEnglish" class="form-control" />
+            <span asp-validation-for="DWFullNameEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="DWFullNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="DWFullNameNepali" class="form-control" />
+            <span asp-validation-for="DWFullNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="WNameFEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="WNameFEnglish" class="form-control" />
+            <span asp-validation-for="WNameFEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="WNameMEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="WNameMEnglish" class="form-control" />
+            <span asp-validation-for="WNameMEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="WNameSEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="WNameSEnglish" class="form-control" />
+            <span asp-validation-for="WNameSEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="WNameFNepali" class="control-label"></label>
+            <input type="hidden" asp-for="WNameFNepali" class="form-control" />
+            <span asp-validation-for="WNameFNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="WNameMNepali" class="control-label"></label>
+            <input type="hidden" asp-for="WNameMNepali" class="form-control" />
+            <span asp-validation-for="WNameMNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="WNameSNepali" class="control-label"></label>
+            <input type="hidden" asp-for="WNameSNepali" class="form-control" />
+            <span asp-validation-for="WNameSNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantFNepali" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantFNepali" class="form-control" />
+            <span asp-validation-for="ApplicantFNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantMNepali" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantMNepali" class="form-control" />
+            <span asp-validation-for="ApplicantMNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantLNepali" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantLNepali" class="form-control" />
+            <span asp-validation-for="ApplicantLNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantFEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantFEnglish" class="form-control" />
+            <span asp-validation-for="ApplicantFEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantMEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantMEnglish" class="form-control" />
+            <span asp-validation-for="ApplicantMEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantLEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantLEnglish" class="form-control" />
+            <span asp-validation-for="ApplicantLEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="AppRelation" class="control-label"></label>
+            <input type="hidden" asp-for="AppRelation" class="form-control" />
+            <span asp-validation-for="AppRelation" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="ApplicantDistrict" class="control-label"></label>
+            <input type="hidden" asp-for="ApplicantDistrict" class="form-control" />
+            <span asp-validation-for="ApplicantDistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Applicantvdcmu" class="control-label"></label>
+            <input type="hidden" asp-for="Applicantvdcmu" class="form-control" />
+            <span asp-validation-for="Applicantvdcmu" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Applicantward" class="control-label"></label>
+            <input type="hidden" asp-for="Applicantward" class="form-control" />
+            <span asp-validation-for="Applicantward" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Applicantctznum" class="control-label"></label>
+            <input type="hidden" asp-for="Applicantctznum" class="form-control" />
+            <span asp-validation-for="Applicantctznum" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Applicantctzdistrict" class="control-label"></label>
+            <input type="hidden" asp-for="Applicantctzdistrict" class="form-control" />
+            <span asp-validation-for="Applicantctzdistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Applicantctzdate" class="control-label"></label>
+            <input type="hidden" asp-for="Applicantctzdate" class="form-control" />
+            <span asp-validation-for="Applicantctzdate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Caste" class="control-label"></label>
+            <input type="hidden" asp-for="Caste" class="form-control" />
+            <span asp-validation-for="Caste" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="NDOBBSY" class="control-label"></label>
+            <input type="hidden" asp-for="NDOBBSY" class="form-control" />
+            <span asp-validation-for="NDOBBSY" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="NDOBBSM" class="control-label"></label>
+            <input type="hidden" asp-for="NDOBBSM" class="form-control" />
+            <span asp-validation-for="NDOBBSM" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="NDOBBSD" class="control-label"></label>
+            <input type="hidden" asp-for="NDOBBSD" class="form-control" />
+            <span asp-validation-for="NDOBBSD" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="EDOBBSY" class="control-label"></label>
+            <input type="hidden" asp-for="EDOBBSY" class="form-control" />
+            <span asp-validation-for="EDOBBSY" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="EDOBBSM" class="control-label"></label>
+            <input type="hidden" asp-for="EDOBBSM" class="form-control" />
+            <span asp-validation-for="EDOBBSM" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="EDOBBSD" class="control-label"></label>
+            <input type="hidden" asp-for="EDOBBSD" class="form-control" />
+            <span asp-validation-for="EDOBBSD" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="FNameNepali" class="form-control" />
+            <span asp-validation-for="FNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="MNameNepali" class="form-control" />
+            <span asp-validation-for="MNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="LNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="LNameNepali" class="form-control" />
+            <span asp-validation-for="LNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="FNameEnglish" class="form-control" />
+            <span asp-validation-for="FNameEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="MNameEnglish" class="form-control" />
+            <span asp-validation-for="MNameEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="LNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="LNameEnglish" class="form-control" />
+            <span asp-validation-for="LNameEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="CitzNo" class="control-label"></label>
+            <input type="hidden" asp-for="CitzNo" class="form-control" />
+            <span asp-validation-for="CitzNo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Gender" class="control-label"></label>
+            <input type="hidden" asp-for="Gender" class="form-control" />
+            <span asp-validation-for="Gender" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="GFFNepali" class="control-label"></label>
+            <input type="hidden" asp-for="GFFNepali" class="form-control" />
+            <span asp-validation-for="GFFNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="GFFEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="GFFEnglish" class="form-control" />
+            <span asp-validation-for="GFFEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="GFMNepali" class="control-label"></label>
+            <input type="hidden" asp-for="GFMNepali" class="form-control" />
+            <span asp-validation-for="GFMNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="GFMEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="GFMEnglish" class="form-control" />
+            <span asp-validation-for="GFMEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="GFLNepali" class="control-label"></label>
+            <input type="hidden" asp-for="GFLNepali" class="form-control" />
+            <span asp-validation-for="GFLNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="GFLEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="GFLEnglish" class="form-control" />
+            <span asp-validation-for="GFLEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherFNepali" class="control-label"></label>
+            <input type="hidden" asp-for="FatherFNepali" class="form-control" />
+            <span asp-validation-for="FatherFNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherFEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="FatherFEnglish" class="form-control" />
+            <span asp-validation-for="FatherFEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherMNepali" class="control-label"></label>
+            <input type="hidden" asp-for="FatherMNepali" class="form-control" />
+            <span asp-validation-for="FatherMNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherMEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="FatherMEnglish" class="form-control" />
+            <span asp-validation-for="FatherMEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherLNepali" class="control-label"></label>
+            <input type="hidden" asp-for="FatherLNepali" class="form-control" />
+            <span asp-validation-for="FatherLNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherLEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="FatherLEnglish" class="form-control" />
+            <span asp-validation-for="FatherLEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="FatherDistrict" class="control-label"></label>
+            <input type="hidden" asp-for="FatherDistrict" class="form-control" />
+            <span asp-validation-for="FatherDistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Fathervdcmu" class="control-label"></label>
+            <input type="hidden" asp-for="Fathervdcmu" class="form-control" />
+            <span asp-validation-for="Fathervdcmu" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Fatherward" class="control-label"></label>
+            <input type="hidden" asp-for="Fatherward" class="form-control" />
+            <span asp-validation-for="Fatherward" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Fatherctznum" class="control-label"></label>
+            <input type="hidden" asp-for="Fatherctznum" class="form-control" />
+            <span asp-validation-for="Fatherctznum" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Fatherctzdistrict" class="control-label"></label>
+            <input type="hidden" asp-for="Fatherctzdistrict" class="form-control" />
+            <span asp-validation-for="Fatherctzdistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Fatherctzdate" class="control-label"></label>
+            <input type="hidden" asp-for="Fatherctzdate" class="form-control" />
+            <span asp-validation-for="Fatherctzdate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherFNepali" class="control-label"></label>
+            <input type="hidden" asp-for="MotherFNepali" class="form-control" />
+            <span asp-validation-for="MotherFNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherFEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="MotherFEnglish" class="form-control" />
+            <span asp-validation-for="MotherFEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherMNepali" class="control-label"></label>
+            <input type="hidden" asp-for="MotherMNepali" class="form-control" />
+            <span asp-validation-for="MotherMNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherMEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="MotherMEnglish" class="form-control" />
+            <span asp-validation-for="MotherMEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherLNepali" class="control-label"></label>
+            <input type="hidden" asp-for="MotherLNepali" class="form-control" />
+            <span asp-validation-for="MotherLNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherLEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="MotherLEnglish" class="form-control" />
+            <span asp-validation-for="MotherLEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="MotherDistrict" class="control-label"></label>
+            <input type="hidden" asp-for="MotherDistrict" class="form-control" />
+            <span asp-validation-for="MotherDistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Mothervdcmu" class="control-label"></label>
+            <input type="hidden" asp-for="Mothervdcmu" class="form-control" />
+            <span asp-validation-for="Mothervdcmu" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Motherward" class="control-label"></label>
+            <input type="hidden" asp-for="Motherward" class="form-control" />
+            <span asp-validation-for="Motherward" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Motherctznum" class="control-label"></label>
+            <input type="hidden" asp-for="Motherctznum" class="form-control" />
+            <span asp-validation-for="Motherctznum" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Motherctzdistrict" class="control-label"></label>
+            <input type="hidden" asp-for="Motherctzdistrict" class="form-control" />
+            <span asp-validation-for="Motherctzdistrict" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Motherctzdate" class="control-label"></label>
+            <input type="hidden" asp-for="Motherctzdate" class="form-control" />
+            <span asp-validation-for="Motherctzdate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="Formdate" class="control-label"></label>
+            <input type="hidden" asp-for="Formdate" class="form-control" />
+            <span asp-validation-for="Formdate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="PhoneNo" class="control-label"></label>
+            <input type="hidden" asp-for="PhoneNo" class="form-control" />
+            <span asp-validation-for="PhoneNo" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="remark" class="control-label"></label>
+            <input type="hidden" asp-for="remark" class="form-control" />
+            <span asp-validation-for="remark" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RFNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="RFNameNepali" class="form-control" />
+            <span asp-validation-for="RFNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RMNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="RMNameNepali" class="form-control" />
+            <span asp-validation-for="RMNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RLNameNepali" class="control-label"></label>
+            <input type="hidden" asp-for="RLNameNepali" class="form-control" />
+            <span asp-validation-for="RLNameNepali" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RFNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="RFNameEnglish" class="form-control" />
+            <span asp-validation-for="RFNameEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RMNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="RMNameEnglish" class="form-control" />
+            <span asp-validation-for="RMNameEnglish" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label hidden asp-for="RLNameEnglish" class="control-label"></label>
+            <input type="hidden" asp-for="RLNameEnglish" class="form-control" />
+            <span asp-validation-for="RLNameEnglish" class="text-danger"></span>
+        </div>
+
+
+        <div class="main" id="det">
+
+            <div class="bg-logo">
+                <img src="/Content/images/logo1.png">
+            </div>
+
+            <div id="topHeader">
+
+
+
+
+                <div>अनुसूची-२०</div>
+                <div>(नियम २० को उपनियम(१) को खण्ड (क) सँग सम्बन्धित)</div>
+                <div>नेपाल सरकार(Government of Nepal)</div>
+                <div class="logo">
+
+                    <img src="/Content/images/logo1.png" width="130" height="130">
+
+                </div>
+                <div>स्थानीय पंज्जीकाधिकारिको कार्यालय(Office of Local Registrar)</div>
+                <div>
+                    वडा नं.
+                    <script>
+                                var ward = "@Model.DWard";
+                            if (ward == "01")
+                                document.write("०१");
+                            else if (ward == "02")
+                                document.write("०२");
+                            else if (ward == "03")
+                                document.write("०३");
+                            else if (ward == "04")
+                                document.write("०४");
+                            else if (ward == "05")
+                                document.write("०५");
+                            else if (ward == "06")
+                                document.write("०६");
+                            else if (ward == "07")
+                                document.write("०७");
+                            else if (ward == "08")
+                                document.write("०8");
+                            else if (ward == "09")
+                                document.write("०९");
+                            else if (ward == "10")
+                                document.write("१०");
+                            else if (ward == "11")
+                                document.write("११");
+                            else if (ward == "12")
+                                document.write("१२");
+                            else if (ward == "13")
+                                document.write("१३");
+                            else if (ward == "14")
+                                document.write("१४");
+                            else if (ward == "15")
+                                document.write("१५");
+                            else if (ward == "16")
+                                document.write("१६");
+                            else if (ward == "17")
+                                document.write("१७");
+                            else if (ward == "18")
+                                document.write("१८");
+                            else if (ward == "19")
+                                document.write("19");
+                            else if (ward == "20")
+                                document.write("20");
+                            else if (ward == "21")
+                                document.write("२१");
+                            else if (ward == "22")
+                                document.write("२२");
+                            else if (ward == "23")
+                                document.write("१३");
+                            else if (ward == "24")
+                                document.write("२४");
+                            else if (ward == "25")
+                                document.write("२५");
+                            else if (ward == "26")
+                                document.write("२६");
+                            else if (ward == "27")
+                                document.write("२७");
+                            else if (ward == "28")
+                                document.write("२८");
+                            else if (ward == "29")
+                                document.write("२९");
+                            else if (ward == "30")
+                                document.write("३०");
+
+                            else
+                                document.write(ward);
+
+                    </script>,मण्डनदेउपुर नगरपालिका
+                </div>
+                <div>Ward No. @Model.DWard, @Model.DVDC Municipality</div>
+                <div>काभ्रे जिल्ला(Kavre District),बागमती प्रदेश(Bagmati Province)</div>
+                <div class="title1">
+                    मृत्यु दर्ता प्रमाणपत्र
+                </div>
+                <div class="title">
+                    Death Registration Certificate
+                </div>
+                <div class="text-left">
+
+                </div>
+                <div class="text-right">
+                    <b>दर्ता मिति (Registration Date)</b>  :&nbsp;@Model.RegistrationDateNepali B.S (@Model.RegistrationDateEnglish A.D)
+                </div>
+                <div class="text-left">
+                    <b>  दर्ता नुम्बर (Registration No.)</b>  :&nbsp; @Model.RegistrationNumber
+
+                </div>
+            </div>
+            <div id="mainForm">
+
+                <table border="1" style="border:1px solid black;" cellspacing="0" width="100%">
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="fullName"> मृतकको पुरा नाम:&nbsp;</label>
+                                @Model.FNameNepali  @Model.MNameNepali  @Model.LNameNepali
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="fullName">Deceased Full Name:&nbsp;</label>
+                                @Model.FNameEnglish    @Model.MNameEnglish    @Model.LNameEnglish
+                            </div>
+                        </td>
+
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item"><label for="dob"> मृत्यु भएको मिति(Date of Birth):&nbsp;</label>वि.सं.@Model.NDeathDate/@Model.EDeathDate (A.D.)</div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item"><label for="dob"> मृत्यु भएको मिति(Date of Birth):&nbsp;</label>वि.सं.@Model.NDeathDate/@Model.EDeathDate (A.D.)</div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="gender">लिंग/(Gender):&nbsp;</label>
+                                <script>
+                            var sex = "@Model.Gender";
+                            if (sex == "MALE")
+                                document.write("पुरुष");
+                            else if (sex == "FEMALE")
+                                document.write("महिला");
+                            else
+                                document.write("तेस्रो लिंगी");
+
+                                </script>/@Model.Gender
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="permanentAddress">मृत्यु भएको स्थान:&nbsp;</label>बागमती,काभ्रे,मण्डनदेउपुर-
+
+                                <script>
+                                var ward = "@Model.DWard";
+                            if (ward == "01")
+                                document.write("०१");
+                            else if (ward == "02")
+                                document.write("०२");
+                            else if (ward == "03")
+                                document.write("०३");
+                            else if (ward == "04")
+                                document.write("०४");
+                            else if (ward == "05")
+                                document.write("०५");
+                            else if (ward == "06")
+                                document.write("०६");
+                            else if (ward == "07")
+                                document.write("०७");
+                            else if (ward == "08")
+                                document.write("०8");
+                            else if (ward == "09")
+                                document.write("०९");
+                            else if (ward == "10")
+                                document.write("१०");
+                            else if (ward == "11")
+                                document.write("११");
+                            else if (ward == "12")
+                                document.write("१२");
+                            else if (ward == "13")
+                                document.write("१३");
+                            else if (ward == "14")
+                                document.write("१४");
+                            else if (ward == "15")
+                                document.write("१५");
+                            else if (ward == "16")
+                                document.write("१६");
+                            else if (ward == "17")
+                                document.write("१७");
+                            else if (ward == "18")
+                                document.write("१८");
+                            else if (ward == "19")
+                                document.write("19");
+                            else if (ward == "20")
+                                document.write("20");
+                            else if (ward == "21")
+                                document.write("२१");
+                            else if (ward == "22")
+                                document.write("२२");
+                            else if (ward == "23")
+                                document.write("१३");
+                            else if (ward == "24")
+                                document.write("२४");
+                            else if (ward == "25")
+                                document.write("२५");
+                            else if (ward == "26")
+                                document.write("२६");
+                            else if (ward == "27")
+                                document.write("२७");
+                            else if (ward == "28")
+                                document.write("२८");
+                            else if (ward == "29")
+                                document.write("२९");
+                            else if (ward == "30")
+                                document.write("३०");
+
+                            else
+                                document.write(ward);
+
+                                </script>
+
+                                , @Model.DeathPlace
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item"><label for="permanentAddress">Place of Death:&nbsp;</label>@Model.DProvince,@Model.DDistrict,@Model.DVDC-@Model.DWard,@Model.DeathPlace </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                            <div class="input_item">
+                                <label for="permanentAddress">स्थायी ठेगाना:&nbsp;</label>बागमती,काभ्रे,मण्डनदेउपुर-
+
+                                <script>
+                                var ward = "@Model.DWard";
+                            if (ward == "01")
+                                document.write("०१");
+                            else if (ward == "02")
+                                document.write("०२");
+                            else if (ward == "03")
+                                document.write("०३");
+                            else if (ward == "04")
+                                document.write("०४");
+                            else if (ward == "05")
+                                document.write("०५");
+                            else if (ward == "06")
+                                document.write("०६");
+                            else if (ward == "07")
+                                document.write("०७");
+                            else if (ward == "08")
+                                document.write("०8");
+                            else if (ward == "09")
+                                document.write("०९");
+                            else if (ward == "10")
+                                document.write("१०");
+                            else if (ward == "11")
+                                document.write("११");
+                            else if (ward == "12")
+                                document.write("१२");
+                            else if (ward == "13")
+                                document.write("१३");
+                            else if (ward == "14")
+                                document.write("१४");
+                            else if (ward == "15")
+                                document.write("१५");
+                            else if (ward == "16")
+                                document.write("१६");
+                            else if (ward == "17")
+                                document.write("१७");
+                            else if (ward == "18")
+                                document.write("१८");
+                            else if (ward == "19")
+                                document.write("19");
+                            else if (ward == "20")
+                                document.write("20");
+                            else if (ward == "21")
+                                document.write("२१");
+                            else if (ward == "22")
+                                document.write("२२");
+                            else if (ward == "23")
+                                document.write("१३");
+                            else if (ward == "24")
+                                document.write("२४");
+                            else if (ward == "25")
+                                document.write("२५");
+                            else if (ward == "26")
+                                document.write("२६");
+                            else if (ward == "27")
+                                document.write("२७");
+                            else if (ward == "28")
+                                document.write("२८");
+                            else if (ward == "29")
+                                document.write("२९");
+                            else if (ward == "30")
+                                document.write("३०");
+
+                            else
+                                document.write(ward);
+
+                                </script>
+
+                                ,@Model.DeathPlace
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr><td colspan="5"> <div class="input_item"><label for="grandFatherName">बाजेको पुरा:&nbsp; </label>@Model.GFFNepali @Model.GFMNepali @Model.GFLNepali</div></td></tr>
+                    <tr><td colspan="5"> <div class="input_item"><label for="grandFatherName">Full name of Grandfather:&nbsp;</label>@Model.GFFEnglish @Model.GFMEnglish @Model.GFLEnglish</div></td></tr>
+                    <tr>
+
+
+                        <td colspan="1" rowspan="3">
+                            <div class="title">
+                                बाबुको विवरण&nbsp;&nbsp;
+
+                                (Father's Details)
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="inputs">
+                                <div class="input_item"><label for="fathersFullName">पुरा नाम:&nbsp;</label>@Model.FatherFNepali @Model.FatherMNepali @Model.FatherLNepali</div>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="fathersFullName">Full Name:&nbsp;</label>@Model.FatherFEnglish @Model.FatherMEnglish @Model.FatherLEnglish</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersID">परिचयपत्र नं(नागरिकता/राहदानी)/ID (Citizenship/Passport):&nbsp;</label>@Model.Fatherctznum</div>
+                            </div>
+                        </td>
+                    </tr>
+
+
+                    <tr>
+
+                        <td colspan="1" rowspan="3">
+                            <div class="title">
+                                आमाको विवरण&nbsp;&nbsp;
+                                (Mother's Details)
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="inputs">
+                                <div class="input_item"><label for="fathersFullName">पुरा नाम:&nbsp;</label>@Model.MotherFNepali @Model.MotherMNepali @Model.MotherLNepali</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersFullName">Full Name:&nbsp;</label>@Model.MotherFEnglish @Model.MotherMEnglish @Model.MotherLEnglish</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersID">परिचयपत्र नं(नागरिकता/राहदानी)/ID (Citizenship/Passport):&nbsp;</label>@Model.Motherctznum</div>
+                            </div>
+                        </td>
+
+                    </tr>
+                    <tr>
+
+                        <td colspan="1" rowspan="3">
+                            <div class="title">
+                                सूचकको विवरण&nbsp;&nbsp;
+                                (Informant's Details)
+                            </div>
+                        </td>
+                        <td colspan="4">
+                            <div class="inputs">
+                                <div class="input_item"><label for="fathersFullName">पुरा नाम:&nbsp;</label>@Model.ApplicantFNepali @Model.ApplicantMNepali @Model.ApplicantLNepali</div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="3">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="informantsFullName">Full Name:&nbsp;</label>@Model.ApplicantFEnglish @Model.ApplicantMEnglish  @Model.ApplicantLEnglish </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <div class="inputs">
+
+                                <div class="input_item"><label for="mothersID">परिचयपत्र नं(नागरिकता/राहदानी)/ID (Citizenship/Passport):&nbsp;</label>@Model.Applicantctznum</div>
+                            </div>
+                        </td>
+
+                    </tr>
+
+                </table>
+            </div>
+            @if (Model.IsRegistered == true)
+            {
+                <div id="remarks">
+                    कैफियत:आमा वुवाको नागरिकता नुम्बर उल्लेख नभएको (Remarks : Citizenship number of father and mother is not available)
+                </div>
+                <div id="footer">
+                    <div class="official_details">
+                        <div>
+                            सही(Signature):<img src="/Content/images/bab.jpg" width="170" height="40">
+                        </div>
+
+
+                        <div>
+                            <b> स्थानीय पंज्जीकाधिकारिको नाम:&nbsp; @Model.RFNameNepali   @Model.RMNameNepali   @Model.RLNameNepali</b>
+                        </div>
+                        <div>  <b> Name of Local Registrar: &nbsp;</b><b style="text-transform:uppercase;">@Model.RFNameEnglish   @Model.RMNameEnglish   @Model.RLNameEnglish</b></div>
+
+
+
+
+                    </div>
+                    <div class="official_stamp">
+                        <div class="stamp">
+                            <div class="box"><img src="/Content/images/R.png" width="220" height="106"></div>
+
+                            <h4>कार्यालयको छाप/Official Stamp</h4>
+                        </div>
+                    </div>
+                </div>
+            }
+            else
+            {
+                <div id="remarks">
+                    कैफियत:आमा वुवाको नागरिकता नुम्बर उल्लेख नभएको (Remarks : Citizenship number of father and mother is not available)
+                </div>
+                <div id="footer">
+                    <div class="official_details">
+                        <div>
+                            सही(Signature):
+                        </div>
+
+
+                        <div>
+                            <b> स्थानीय पंज्जीकाधिकारिको नाम:&nbsp; @Model.RFNameNepali   @Model.RMNameNepali   @Model.RLNameNepali</b>
+                        </div>
+                        <div>  <b> Name of Local Registrar: &nbsp;</b><b style="text-transform:uppercase;">@Model.RFNameEnglish   @Model.RMNameEnglish   @Model.RLNameEnglish</b></div>
+
+
+
+
+                    </div>
+                    <div class="official_stamp">
+                        <div class="stamp">
+                            <div class="box"></div>
+
+                            <h4>कार्यालयको छाप/Official Stamp</h4>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+
+        @if (Model.IsRegistered == true)
+        {
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsRegistered" />Is Verified
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Already Verified" class="btn btn-success" />
+            </div>
+
+        }
+        else
+        {
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="IsRegistered" />Is Verified
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Verify" class="btn btn-primary" />
+            </div>
+
+        }
+    </form>
+    </body>
+   
+

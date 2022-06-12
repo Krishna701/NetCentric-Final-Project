@@ -1,0 +1,113 @@
+﻿@model IEnumerable<EGovProject.Models.ViewModel.ContactModel>
+
+@{
+    ViewData["Title"] = "ContactList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int counter = 1;
+}
+
+<style>
+
+
+    .table {
+        overflow-y: auto;
+        border-radius: 50px;
+        padding: 1rem;
+    }
+
+    table {
+        width: 100%;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+        table thead th,
+        table tbody td {
+            padding: 15px;
+            border: none;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        table thead th {
+            background: #1861ac;
+            color: white;
+            font-size: 16px;
+            position: sticky;
+            top: -1%;
+        }
+
+        table tbody td {
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            border-left: 1px solid rgba(0,0,0,0.1);
+        }
+</style>
+
+
+<h1>  सम्पर्क सूची </h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                नं
+            </th>
+            <th>
+                नाम
+            </th>
+            <th>
+               फोन नं
+            </th>
+            <th>
+                विषय
+            </th>
+            <th>
+                प्रकार
+            </th>
+            <th>
+                इमेल
+            </th>
+            <th>
+                सन्देश
+            </th>
+            <th>
+              मिति/समय
+            </th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                   @counter
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subject)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Type)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Message)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContactDate)
+                </td>
+
+            </tr>
+            counter++;
+        }
+    </tbody>
+</table>

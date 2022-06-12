@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.616 40.616">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2572bc;
+      }
+    </style>
+  </defs>
+  <g id="if_organization-chart-order-form-arrangement_3790074" transform="translate(-2 -2)">
+    <path id="Path_10" data-name="Path 10" class="cls-1" d="M11,21.708v3.385h1.354V22.385H24.539v2.708h1.354V22.385H38.077v2.708h1.354V21.708a.677.677,0,0,0-.677-.677H25.893V19H24.539v2.031H11.677a.677.677,0,0,0-.677.677Z" transform="translate(-2.908 -5.492)"/>
+    <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-1" cx="3.385" cy="3.385" r="3.385" transform="translate(18.923 21.631)"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" class="cls-1" cx="3.385" cy="3.385" r="3.385" transform="translate(32.462 21.631)"/>
+    <circle id="Ellipse_5" data-name="Ellipse 5" class="cls-1" cx="3.385" cy="3.385" r="3.385" transform="translate(5.385 21.631)"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" class="cls-1" width="5.415" height="5.415" transform="translate(2 37.201)"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" class="cls-1" width="5.415" height="5.415" transform="translate(10.123 37.201)"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" class="cls-1" width="5.415" height="5.415" transform="translate(29.077 37.201)"/>
+    <rect id="Rectangle_18" data-name="Rectangle 18" class="cls-1" width="5.415" height="5.415" transform="translate(37.201 37.201)"/>
+    <rect id="Rectangle_19" data-name="Rectangle 19" class="cls-1" width="5.415" height="5.415" transform="translate(19.6 37.201)"/>
+    <rect id="Rectangle_20" data-name="Rectangle 20" class="cls-1" width="1.354" height="5.415" transform="translate(21.631 30.431)"/>
+    <path id="Path_11" data-name="Path 11" class="cls-1" d="M6.354,48.062h6.769v1.354h1.354V47.385a.677.677,0,0,0-.677-.677H10.415V44H9.062v2.708H5.677A.677.677,0,0,0,5,47.385v2.031H6.354Z" transform="translate(-0.969 -13.569)"/>
+    <path id="Path_12" data-name="Path 12" class="cls-1" d="M54.477,49.415V47.385a.677.677,0,0,0-.677-.677H50.415V44H49.062v2.708H45.677a.677.677,0,0,0-.677.677v2.031h1.354V48.062h6.769v1.354Z" transform="translate(-13.892 -13.569)"/>
+    <path id="Path_13" data-name="Path 13" class="cls-1" d="M30.694,6.137,29.415,2,28.137,6.137H24l3.347,2.557-1.278,4.137,3.347-2.557,3.347,2.557L31.484,8.694l3.347-2.557Z" transform="translate(-7.107)"/>
+  </g>
+</svg>

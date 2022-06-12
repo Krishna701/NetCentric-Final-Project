@@ -1,0 +1,13 @@
+.container.font-popins {
+    text-align: center;
+}
+@media (min-width: 768px){
+.padding-section {
+    padding: 81px 0 164px 0;
+}
+}
+@media(max-width:767px){
+    .container.font-popins img{
+        width:100%;
+    }
+}

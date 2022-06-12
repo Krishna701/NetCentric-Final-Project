@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.121 56.736">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #2572bc;
+      }
+
+      .cls-1 {
+        stroke: #2572bc;
+      }
+
+      .cls-1, .cls-3 {
+        stroke-width: 2px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        filter: url(#Rectangle_13);
+      }
+    </style>
+    <filter id="Rectangle_13" x="0" y="0" width="47.121" height="56.736" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="-3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_75" data-name="Group 75" transform="translate(334 -445.418)">
+    <g id="Rectangle_14" data-name="Rectangle 14" class="cls-1" transform="translate(-322.505 450)">
+      <rect class="cls-4" width="29.121" height="38.736" rx="5"/>
+      <rect class="cls-5" x="1" y="1" width="27.121" height="36.736" rx="4"/>
+    </g>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, -334, 445.42)">
+      <g id="Rectangle_13-2" data-name="Rectangle 13" class="cls-1" transform="translate(6 12)">
+        <rect class="cls-4" width="29.121" height="38.736" rx="5"/>
+        <rect class="cls-5" x="1" y="1" width="27.121" height="36.736" rx="4"/>
+      </g>
+    </g>
+    <g id="Group_74" data-name="Group 74" transform="translate(-323.879 462.977)">
+      <path id="ic_check_24px" class="cls-2" d="M6.2,10.874,4.119,8.791l-.709.7L6.2,12.287l5.993-5.993-.7-.7Z" transform="translate(-3.41 -5.59)"/>
+      <path id="ic_check_24px-2" data-name="ic_check_24px" class="cls-2" d="M6.2,10.874,4.119,8.791l-.709.7L6.2,12.287l5.993-5.993-.7-.7Z" transform="translate(-3.41 13.916)"/>
+      <path id="ic_close_24px" class="cls-2" d="M10.774,5.582,10.193,5,7.887,7.306,5.582,5,5,5.582,7.306,7.887,5,10.193l.582.582L7.887,8.469l2.306,2.306.582-.582L8.469,7.887Z" transform="translate(-5 5.649)"/>
+      <path id="Path_7" data-name="Path 7" class="cls-3" d="M-275,523.965h10.363" transform="translate(285.989 -517.721)"/>
+      <path id="Path_8" data-name="Path 8" class="cls-3" d="M-275,523.965h10.363" transform="translate(285.989 -508.105)"/>
+      <path id="Path_9" data-name="Path 9" class="cls-3" d="M-275,523.965h10.363" transform="translate(285.989 -498.49)"/>
+    </g>
+  </g>
+</svg>

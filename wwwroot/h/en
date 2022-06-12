@@ -1,0 +1,1526 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Generator" content="Municipality Website" />
+<link rel="alternate" type="application/rss+xml" title="Gokarneshwor Municipality RSS" href="https://www.gokarneshwormun.gov.np/en/rss.xml" />
+<link rel="shortcut icon" href="https://www.gokarneshwormun.gov.np/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta charset="UTF-8">
+<meta name="theme-color" content="#053775">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0,  target-densitydpi=device-dpi">
+<title>Gokarneshwor Municipality | Municipality Office<br>Bagmati Pradesh, Jorpati<br>Kathmandu, Nepal</title>
+<meta property="og:image" content="http://202.45.144.235/sites/all/themes/newmun/oglogo.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<!-- *************** Google Font *************** -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mukta" rel="stylesheet">
+
+<!-- *************** Font Awesome *************** -->
+<link href="sites/all/themes/newmun/fonts/font-awesome-5-0-1/css/fontawesome-all.min.css" rel="stylesheet" type="text/css" />
+<style type="text/css" media="all">
+@import url("https://www.gokarneshwormun.gov.np/modules/system/system.base.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/system/system.menus.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/system/system.messages.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/system/system.theme.css?qzqcqb");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/views_slideshow/views_slideshow.css?qzqcqb");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.gokarneshwormun.gov.np/modules/field/theme/field.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/node/node.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/poll/poll.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/search/search.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/user/user.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/views/css/views.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/ckeditor/css/ckeditor.css?qzqcqb");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/colorbox/styles/default/colorbox_style.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/ctools/css/ctools.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/modules/locale/locale.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/text_resize/text_resize.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/views_slideshow/views_slideshow_controls_text.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/views_slideshow/contrib/views_slideshow_cycle/views_slideshow_cycle.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/quicktabs/css/quicktabs.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/modules/quicktabs/quicktabs_tabstyles/tabstyles/basic/basic.css?qzqcqb");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/js/vendor/bootstrap/css/bootstrap.min.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/js/vendor/bootstrap/css/bootstrap-theme.min.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/js/vendor/slick-1-9/slick.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/js/vendor/slick-1-9/slick-theme.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/js/vendor/malihu-custom-scroll/jquery.mCustomScrollbar.min.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/common/main.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/common/pp.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/common/header.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/common/footer.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/theme/theme-red-blue.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/pages/home-Municipality.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/pages/gallery.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/common/inner-page.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/pages/note.css?qzqcqb");
+@import url("https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/pages/contact.css?qzqcqb");
+</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/ie.css?qzqcqb" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="https://www.gokarneshwormun.gov.np/sites/all/themes/newmun/css/ie6.css?qzqcqb" media="all" />
+<![endif]-->
+
+</head>
+<body class="html front not-logged-in two-sidebars page-node i18n-en footer-columns" >
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+      
+
+<div class="sticky">
+        <a href="/faq">
+		<img src = "/sites/all/themes/newmun/img/icons/faq.png">            
+            <span>FAQs</span>
+        </a>
+        <a href="/grievance">
+            <img src="/sites/all/themes/newmun/img/icons/Group_215.png">            <span>Complain</span>
+        </a>
+		<a href="/problem-registration">
+            <img src="/sites/all/themes/newmun/img/icons/Group_217.png">            <span>Problems</span>
+        </a>
+    </div>
+    <header>
+        <button id="menu-toggle">
+            <div id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div id="cross">
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="header-top">
+            <div class="container flex-container">
+                <div class="top-left">
+                    <a href="https://www.facebook.com/gokarneshwor.municipality/">
+                      <img src="/sites/all/themes/newmun/img/icons/fb.png"> 
+                    </a>
+
+                    <a href="https://twitter.com/gokarneshwor1">
+                        <img src="/sites/all/themes/newmun/img/icons/tter.png">					       </a>
+                    <div class="first">
+                        <div class="translate">
+                            <ul class="language-switcher-locale-url"><li class="en first active"><a href="/en" class="language-link active" xml:lang="en">English</a></li>
+<li class="ne last"><a href="/ne" class="language-link" xml:lang="ne">नेपाली</a></li>
+</ul>                        </div>
+                        <button class="search-mobile">
+                              <div class="region region-search-box">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/en" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-0diFcKHYnfLsitLs56lRbpWkrdAlQir81qHIsfEIDTs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+                            <button class="close">X</button>
+                        </button>
+                    </div>
+                </div>
+                <div class="top-right">
+
+                    <a href="tel:फोन न+९७७ १४९१४११४,  +९७७ १४९१४११५   ">
+                        <img src="/sites/all/themes/newmun/img/icons/Path_39.png">						
+                        <span>फोन न+९७७ १४९१४११४,  +९७७ १४९१४११५   </span>
+                    </a>
+                    <a href="mailto:gokarneshwormun@gmail.com ">
+					<img src="/sites/all/themes/newmun/img/icons/Path_38.png">					  
+                        <span>gokarneshwormun@gmail.com </span>
+                    </a>
+                    <a href="tel:फ्याक्स: +९७७ १४९१४११६">
+                        <img src="/sites/all/themes/newmun/img/icons/Group_142.png">						
+                        <span>फ्याक्स: +९७७ १४९१४११६</span>
+                    </a>
+                    <!-- <button class="btn-search-toggler">
+                        <img src="sites/all/themes/newmun/img/icons/icon-search.svg" alt="" class="svg">
+                    </button> -->
+                </div>
+            </div>
+            
+        </div>
+        <nav class="header-bottom">
+            <div class="container flex-container">
+                <div class="layer-1">
+                    <a class="logo-mobile" href="/en">
+                       <img src="/sites/all/themes/newmun/new_logo.png">				   </a>
+                    <a class="logo-main" href="/en">
+                        <img src="/sites/all/themes/newmun/new_logo.png" ">
+                        <span>
+                            <span>Gokarneshwor Municipality</span>
+                            <span>Municipality Office<br>Bagmati Pradesh, Jorpati<br>Kathmandu, Nepal</span>
+                        </span>
+                    </a>
+                    <div class="flex-row pull-right low-right">
+                        <div class="first">
+                            <div class="translate">
+                            <ul class="language-switcher-locale-url"><li class="en first active"><a href="/en" class="language-link active" xml:lang="en">English</a></li>
+<li class="ne last"><a href="/ne" class="language-link" xml:lang="ne">नेपाली</a></li>
+</ul>  <div class="region region-search-box">
+      <div class="region region-search-box">
+    <div id="block-search-form" class="block block-search">
+
+    
+  <div class="content">
+    <form action="/en" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Search" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-0diFcKHYnfLsitLs56lRbpWkrdAlQir81qHIsfEIDTs" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>  </div>
+</div>
+  </div>
+  </div>
+							</div>
+							 
+                            </div>
+												<div class="second">
+                            <img style="max-width:100px;" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/nepal%20flag_0.gif" alt="Local Government Logo">
+                        </div>
+						   <?php// endif; ?>
+                    </div>
+                </div>
+                <div class="layer-2">
+				<div class="col-md-12">
+  <div class="region region-navigation">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+    
+  <div class="content">
+    <ul class="main-nav"><li ><a href="/en" title="" class="active">गृहपृष्ठ</a></li><li class=has-child><a href="/en" title="" class="active">परिचय</a><ul class="custom-drop-menu gradient-bg-grey"><li ><a href="/en/node/3">संक्षिप्त परिचय</a></li><li ><a href="/en/content/%E0%A4%B8%E0%A4%82%E0%A4%97%E0%A4%A0%E0%A4%A8%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%AE%E0%A4%95-%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A4%B0%E0%A5%81%E0%A4%AA">संगठनात्मक स्वरुप</a></li><li ><a href="/en/content/%E0%A4%A8%E0%A4%97%E0%A4%B0-%E0%A4%B8%E0%A4%AD%E0%A4%BE">नगर सभा</a></li><li ><a href="/en/content/%E0%A4%B5%E0%A4%BF%E0%A4%B7%E0%A4%AF%E0%A4%97%E0%A4%A4-%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%B0%E0%A5%81">विषयगत समितिहरु</a></li><li ><a href="/en/content/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%BF%E0%A4%AE-%E0%A4%A6%E0%A4%B0%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%A4%E0%A5%87%E0%A4%B0%E0%A4%BF%E0%A4%9C">अन्तरिम दरबन्दी तेरिज</a></li><li ><a href="/en/ward-profile" title="">वडा प्रोफाइल</a></li><li ><a href="https://gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/documents/%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A5%80%20%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3%20%E0%A4%A8%E0%A4%AF%E0%A4%BE%E0%A4%81_0.pdf" title="">कर्मचारी विवरण</a></li></ul></li><li ><a href="/en" title="" class="active">कार्यक्रम तथा परियोजना</a></li><li class=has-child><a href="/en" title="" class="active">प्रतिवेदन</a><ul class="custom-drop-menu gradient-bg-grey"><li ><a href="/en/annual-progress-report" title="">वार्षिक प्रगति प्रतिवेदन</a></li><li ><a href="/en/trimester-progress-report" title="">चौमासिक प्रगति प्रतिवेदन</a></li><li ><a href="/en/audit-report" title="">लेखा परीक्षण प्रतिवेदन</a></li><li ><a href="/en/monitoring-report" title="">अनुगमन प्रतिवेदन</a></li><li ><a href="/en/public-hearing" title="">सार्वजनिक सुनुवाई</a></li><li ><a href="/en/public-audit" title="">सार्वजनिक परीक्षण</a></li><li ><a href="/en/social-audit" title="">सामाजिक परिक्षण</a></li><li ><a href="/en/publications" title="">प्रकाशन</a></li></ul></li><li class=has-child><a href="/en" title="" class="active">विधुतीय शुसासन सेवा</a><ul class="custom-drop-menu gradient-bg-grey"><li ><a href="/en/vital-registration" title="">घटना दर्ता</a></li><li ><a href="/en/social-security" title="">सामाजिक सुरक्षा</a></li><li ><a href="/en/citizen-charter" title="">नागरिक वडापत्र</a></li><li ><a href="/en/application-letter" title="">निवेदनको ढाँचा</a></li></ul></li><li class=has-child><a href="/en" title="" class="active">सूचना तथा जानकारी</a><ul class="custom-drop-menu gradient-bg-grey"><li ><a href="/en/public-procurement-tender-notices" title="">सार्वजनिक खरिद/बोलपत्र सूचना</a></li><li ><a href="/en/tax-and-fees" title="">कर तथा शुल्कहरु</a></li><li ><a href="/en/content/%E0%A4%B0%E0%A4%BE%E0%A4%B9%E0%A4%A4-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%AE%E0%A4%BE%E0%A4%AA%E0%A4%A6%E0%A4%A3%E0%A5%8D%E0%A4%A1-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AC">राहत सम्बन्धी मापदण्ड, २०७६</a></li><li ><a href="/en/content/%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF-%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A4%BE%E0%A4%B6%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF%E2%80%93%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AB">स्थानीय राजपत्र प्रकाशन सम्बन्धी कार्यविधि–२०७५</a></li><li ><a href="/en/content/%E0%A4%B8%E0%A5%8D%E0%A4%A5%E0%A4%BE%E0%A4%A8%E0%A5%80%E0%A4%AF-%E0%A4%B8%E0%A4%B9%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%80-%E0%A4%90%E0%A4%A8-%E2%80%93%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AB">स्थानीय सहकारी ऐन –२०७५</a></li><li ><a href="/en/content/%E2%80%9C%E0%A4%98%E2%80%9D-%E0%A4%B5%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%95%E0%A5%8B-%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%BE%E0%A4%A3-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF%E0%A5%80-%E0%A4%87%E0%A4%9C%E0%A4%BE%E0%A4%9C%E0%A4%A4%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF">“घ” वर्गको निर्माण व्यवसायी इजाजतपत्र सम्बन्धी कार्यविधि</a></li></ul></li><li ><a href="/en/node/1">सम्पर्क</a></li><li class=has-child><a href="/en" title="" class="active">पुन:निर्माण प्रोफाईल</a><ul class="custom-drop-menu gradient-bg-grey"><li ><a href="http://202.51.74.207/recent-palika-document/27004/en/" title="">पुनः निर्माण प्रोफईल - अंग्रेजीमा</a></li><li ><a href="http://202.51.74.207/recent-palika-document/27004/np/" title="">पुनः निर्माण प्रोफईल - नेपाली</a></li></ul></li></ul>  </div>
+</div>
+  </div>
+				</div>
+				
+                </div>
+            </div>
+            <span class="active-hover"></span>
+        </nav>
+    </header>
+	<main>
+	       		<section class="header-notice">
+
+            <div class="notice">                 
+     <div class="region region-newsticker">
+    <div id="block-views-news-and-events-block" class="block block-views">
+ <div class="container flex-container font-popins">
+    <h4>Scrolling News</h4>
+                      <div class="notice-slider" style="position: absolute;margin-top: 7px; margin-left: 65px;">
+                       
+                      
+  <div class="content">
+     <marquee id="test" behavior="scroll" scrolldelay="100" scrollamount="4" onmouseover="document.all.test.stop()" onmouseout="document.all.test.start()">
+	<div class="view view-news-and-events view-id-news_and_events view-display-id-block view-dom-id-46a764c16116067de26bfac531c9a2d0">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%8B%E0%A4%AD%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF-%E0%A4%AC%E0%A4%BF%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A6%E0%A4%95%E0%A5%8B-astrazeneca-%E0%A4%96%E0%A5%8B%E0%A4%AA%E0%A4%95%E0%A5%8B-%E0%A4%A6%E0%A5%8B%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%8B-%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4">कोभिड -१९ बिरुद्दको AstraZeneca खोपको दोश्रो मात्रा लगाउने बारेको सूचना ।</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%8B%E0%A4%AD%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF-%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%95%E0%A5%8B-%E0%A4%AD%E0%A5%87%E0%A4%B0%E0%A5%8B%E0%A4%B8%E0%A5%87%E0%A4%B2-%E0%A4%96%E0%A5%8B%E0%A4%AA%E0%A4%95%E0%A5%8B-%E0%A4%A6%E0%A5%8B%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%8B-%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">कोभिड-१९ विरुद्धको भेरोसेल खोपको दोश्रो मात्रा लगाउने बारेको सूचना !!!</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE-%E0%A4%9C%E0%A4%A8%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%9C%E0%A5%8B%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4">जिल्ला जनगणना कार्यालय, जोरपाटीको सूचना । </a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BF%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95-%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A4%B0-%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3-%E0%A4%B8%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%B0-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">निशुल्क क्यान्सर परिक्षण सिविर संचालन सम्बन्धी सूचना |</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%81-%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%95%E0%A5%8B-%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%9A%E0%A4%BE%E0%A4%A1-%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%A4%E0%A5%80%E0%A4%9C-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE-%E0%A4%95%E0%A5%8B-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%AE%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%B2%E0%A4%AE%E0%A4%AF-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%95%E0%A4%BE%E0%A4%AE%E0%A4%A8%E0%A4%BE-%E0%A5%A4">हिन्दु नारीहरुको महान चाड हरितालिका तीज २०७८ को हार्दिक मङ्गलमय शुभकामना ।</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/en/news-and-events">
+    more  </a>
+</div>
+  
+  
+  
+</div>	</marquee>
+  </div>
+   </div>
+</div>
+</div>
+  </div>
+            </div>
+			             </div>
+        </section>
+	
+
+	
+		
+				<section class="hero-slide">
+            			<div class="slides">
+                <!--img src="sites/all/themes/newmun/uploads/banner/banner-1.jpg" alt=""-->
+                <img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/slider/IMG_1660-%2812%29_5.jpg" alt="">
+                <div class="container flex-container font-popins">
+                    <div class="slider-detail">
+                        <p>सातौ नगर सभा-२०७८</p>
+
+                    </div>
+                    <a href="" class="slider-link">Read More</a>
+                </div>
+            </div>
+						<div class="slides">
+                <!--img src="sites/all/themes/newmun/uploads/banner/banner-1.jpg" alt=""-->
+                <img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/slider/IMG_7908.jpg" alt="">
+                <div class="container flex-container font-popins">
+                    <div class="slider-detail">
+                        <p>कृषकहरुलाई हाते ट्याक्टर वितरण</p>
+
+                    </div>
+                    <a href="" class="slider-link">Read More</a>
+                </div>
+            </div>
+						<div class="slides">
+                <!--img src="sites/all/themes/newmun/uploads/banner/banner-1.jpg" alt=""-->
+                <img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/slider/IMG_9305.jpg" alt="">
+                <div class="container flex-container font-popins">
+                    <div class="slider-detail">
+                        <p>सम्माननीय प्रधानमन्त्री श्री शेर बहादुर देउवा ज्यूद्वारा कोभिड विरुद्द को जोन्सन एंड जोन्सन खोप हस्तान्तरण कार्यक्रम</p>
+
+                    </div>
+                    <a href="" class="slider-link">Read More</a>
+                </div>
+            </div>
+						<div class="slides">
+                <!--img src="sites/all/themes/newmun/uploads/banner/banner-1.jpg" alt=""-->
+                <img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/slider/IMG_7949.jpg" alt="">
+                <div class="container flex-container font-popins">
+                    <div class="slider-detail">
+                        <p>नगर प्रहरीहरुलाई दर्जनी चिन्ह वितरण</p>
+
+                    </div>
+                    <a href="" class="slider-link">Read More</a>
+                </div>
+            </div>
+						<div class="slides">
+                <!--img src="sites/all/themes/newmun/uploads/banner/banner-1.jpg" alt=""-->
+                <img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/slider/IMG_8108.jpg" alt="">
+                <div class="container flex-container font-popins">
+                    <div class="slider-detail">
+                        <p>नगरपालिकाको कार्यालय भवन निर्माण सम्झौता</p>
+
+                    </div>
+                    <a href="" class="slider-link">Read More</a>
+                </div>
+            </div>
+						<div class="slides">
+                <!--img src="sites/all/themes/newmun/uploads/banner/banner-1.jpg" alt=""-->
+                <img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/slider/IMG_0002-%284%29.jpg" alt="">
+                <div class="container flex-container font-popins">
+                    <div class="slider-detail">
+                        <p>गोकर्ण प्राथमिक अस्पताललाई ROTARY क्लबद्वारा ECG र USG मेशिन हस्तान्तरण</p>
+
+                    </div>
+                    <a href="" class="slider-link">Read More</a>
+                </div>
+            </div>
+			        </section>
+				
+		
+		
+		
+	       <section class=" introduction">
+            <div class="container">
+                <div class="row" style="margin-bottom:36px">
+                    <div class="col-xs-12 col-sm-12 col-md-5">
+                         <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-828" class="node node-photo-gallery node-promoted node-sticky node-teaser clearfix" about="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AB%E0%A5%A8%E0%A5%A6-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7%E0%A4%9C%E0%A5%8D%E0%A4%9E-%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A5%8D%E0%A4%AD-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%A4" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AB%E0%A5%A8%E0%A5%A6-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7%E0%A4%9C%E0%A5%8D%E0%A4%9E-%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A5%8D%E0%A4%AD-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%A4">मिति: २०७८/०५/२० गते - विशेषज्ञ सेवा शुभारम्भ ।</a>
+    </h2>
+    <span property="dc:title" content="मिति: २०७८/०५/२० गते - विशेषज्ञ सेवा शुभारम्भ ।" class="rdf-meta element-hidden"></span>
+      <div class="content clearfix">
+  
+     </div>
+  	
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AB%E0%A5%A8%E0%A5%A6-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7%E0%A4%9C%E0%A5%8D%E0%A4%9E-%E0%A4%B8%E0%A5%87%E0%A4%B5%E0%A4%BE-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%BE%E0%A4%B0%E0%A4%AE%E0%A5%8D%E0%A4%AD-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%A4" rel="tag" title="मिति: २०७८/०५/२० गते - विशेषज्ञ सेवा शुभारम्भ ।">Read more<span class="element-invisible"> about मिति: २०७८/०५/२० गते - विशेषज्ञ सेवा शुभारम्भ ।</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-812" class="node node-documents node-promoted node-sticky node-teaser clearfix" about="/en/content/%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%88%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B8-%E0%A4%AC%E0%A4%A6%E0%A4%B2%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A5%A4" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/en/content/%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%88%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B8-%E0%A4%AC%E0%A4%A6%E0%A4%B2%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A5%A4">गोकर्णेश्वर नगरपालिका सुन्ताखानको ईतिहास बदल्ने अभिलेख ।</a>
+    </h2>
+    <span property="dc:title" content="गोकर्णेश्वर नगरपालिका सुन्ताखानको ईतिहास बदल्ने अभिलेख ।" class="rdf-meta element-hidden"></span>
+      <div class="content clearfix">
+  
+     </div>
+  	
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/en/content/%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%B8%E0%A5%81%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BE%E0%A4%96%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%88%E0%A4%A4%E0%A4%BF%E0%A4%B9%E0%A4%BE%E0%A4%B8-%E0%A4%AC%E0%A4%A6%E0%A4%B2%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%85%E0%A4%AD%E0%A4%BF%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A5%A4" rel="tag" title="गोकर्णेश्वर नगरपालिका सुन्ताखानको ईतिहास बदल्ने अभिलेख ।">Read more<span class="element-invisible"> about गोकर्णेश्वर नगरपालिका सुन्ताखानको ईतिहास बदल्ने अभिलेख ।</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-811" class="node node-photo-gallery node-promoted node-sticky node-teaser clearfix" about="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AA%E0%A5%A8%E0%A5%AE-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%B6%E0%A4%BE%E0%A4%96%E0%A4%BE%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE-%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%A4-%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%88-%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3-%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AA%E0%A5%A8%E0%A5%AE-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%B6%E0%A4%BE%E0%A4%96%E0%A4%BE%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE-%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%A4-%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%88-%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3-%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE">मिति:२०७८/०४/२८ गते गोकर्णेश्वर नगरपालिका शिक्षा शाखाद्वारा आयोजित सिकाई सहजीकरण पुस्तिका विमोचोन एव वितरण कार्यक्रम र अन्तर्राष्ट्रिय युवा दिवसको अवसरमा आयोजित रक्तदान कार्यक्रमका केहि झलकहरु ।</a>
+    </h2>
+    <span property="dc:title" content="मिति:२०७८/०४/२८ गते गोकर्णेश्वर नगरपालिका शिक्षा शाखाद्वारा आयोजित सिकाई सहजीकरण पुस्तिका विमोचोन एव वितरण कार्यक्रम र अन्तर्राष्ट्रिय युवा दिवसको अवसरमा आयोजित रक्तदान कार्यक्रमका केहि झलकहरु ।" class="rdf-meta element-hidden"></span>
+      <div class="content clearfix">
+  
+     </div>
+  	
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AA%E0%A5%A8%E0%A5%AE-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%B6%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%BE-%E0%A4%B6%E0%A4%BE%E0%A4%96%E0%A4%BE%E0%A4%A6%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%BE-%E0%A4%86%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%BF%E0%A4%A4-%E0%A4%B8%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%88-%E0%A4%B8%E0%A4%B9%E0%A4%9C%E0%A5%80%E0%A4%95%E0%A4%B0%E0%A4%A3-%E0%A4%AA%E0%A5%81%E0%A4%B8%E0%A5%8D%E0%A4%A4%E0%A4%BF%E0%A4%95%E0%A4%BE" rel="tag" title="मिति:२०७८/०४/२८ गते गोकर्णेश्वर नगरपालिका शिक्षा शाखाद्वारा आयोजित सिकाई सहजीकरण पुस्तिका विमोचोन एव वितरण कार्यक्रम र अन्तर्राष्ट्रिय युवा दिवसको अवसरमा आयोजित रक्तदान कार्यक्रमका केहि झलकहरु ।">Read more<span class="element-invisible"> about मिति:२०७८/०४/२८ गते गोकर्णेश्वर नगरपालिका शिक्षा शाखाद्वारा आयोजित सिकाई सहजीकरण पुस्तिका विमोचोन एव वितरण कार्यक्रम र अन्तर्राष्ट्रिय युवा दिवसको अवसरमा आयोजित रक्तदान कार्यक्रमका केहि झलकहरु ।</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-796" class="node node-article node-promoted node-sticky node-teaser clearfix" about="/en/content/%E0%A4%86%E0%A4%B5%E0%A5%AD%E0%A5%AD%E0%A5%AD%E0%A5%AE-%E0%A4%85%E0%A4%B8%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B-%E0%A4%86%E0%A4%AF-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF-%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/en/content/%E0%A4%86%E0%A4%B5%E0%A5%AD%E0%A5%AD%E0%A5%AD%E0%A5%AE-%E0%A4%85%E0%A4%B8%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B-%E0%A4%86%E0%A4%AF-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF-%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3">आ.व.७७/७८ असर सम्मको आय व्यय विवरण </a>
+    </h2>
+    <span property="dc:title" content="आ.व.७७/७८ असर सम्मको आय व्यय विवरण " class="rdf-meta element-hidden"></span>
+      <div class="content clearfix">
+  
+     </div>
+  	
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/en/content/%E0%A4%86%E0%A4%B5%E0%A5%AD%E0%A5%AD%E0%A5%AD%E0%A5%AE-%E0%A4%85%E0%A4%B8%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AE%E0%A4%95%E0%A5%8B-%E0%A4%86%E0%A4%AF-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%AF-%E0%A4%B5%E0%A4%BF%E0%A4%B5%E0%A4%B0%E0%A4%A3" rel="tag" title="आ.व.७७/७८ असर सम्मको आय व्यय विवरण ">Read more<span class="element-invisible"> about आ.व.७७/७८ असर सम्मको आय व्यय विवरण </span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-785" class="node node-article node-promoted node-sticky node-teaser clearfix" about="/en/content/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8-%E0%A4%95%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/en/content/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8-%E0%A4%95%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4">विज्ञापन कर सम्बन्धि सिलबन्दी बोलपत्र आह्वानको सूचना ।</a>
+    </h2>
+    <span property="dc:title" content="विज्ञापन कर सम्बन्धि सिलबन्दी बोलपत्र आह्वानको सूचना ।" class="rdf-meta element-hidden"></span>
+    <div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even" rel="og:image rdfs:seeAlso" resource="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/thumbnail/public/field/image/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF%20%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80%20%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%20%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE%20_0.jpg?itok=nfaVUCdZ"><a href="/en/content/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8-%E0%A4%95%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4"><img typeof="foaf:Image" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/thumbnail/public/field/image/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8%20%E0%A4%95%E0%A4%B0%20%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF%20%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80%20%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%20%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B%20%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE%20_0.jpg?itok=nfaVUCdZ" width="89" height="100" alt="" /></a></div></div></div>  <div class="content clearfix">
+  
+     </div>
+  	
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/en/content/%E0%A4%B5%E0%A4%BF%E0%A4%9C%E0%A5%8D%E0%A4%9E%E0%A4%BE%E0%A4%AA%E0%A4%A8-%E0%A4%95%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4" rel="tag" title="विज्ञापन कर सम्बन्धि सिलबन्दी बोलपत्र आह्वानको सूचना ।">Read more<span class="element-invisible"> about विज्ञापन कर सम्बन्धि सिलबन्दी बोलपत्र आह्वानको सूचना ।</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+<div id="node-784" class="node node-photo-gallery node-promoted node-sticky node-teaser clearfix" about="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%A9%E0%A5%A9%E0%A5%A6-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%95%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%B2%E0%A4%BE%E0%A4%88-%E0%A5%AB%E0%A5%A6-%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%BE-%E0%A4%B9%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9F%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A4%B0-0" typeof="sioc:Item foaf:Document">
+
+        <h2>
+      <a href="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%A9%E0%A5%A9%E0%A5%A6-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%95%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%B2%E0%A4%BE%E0%A4%88-%E0%A5%AB%E0%A5%A6-%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%BE-%E0%A4%B9%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9F%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A4%B0-0">मिति:२०७८/०३/३०/ गते, गोकर्णेश्वर नगरपालिका अन्तर्गतका कृषकहरुलाई ५०% अनुदानमा हाते ट्याक्टर वितरण कार्यक्रम ।</a>
+    </h2>
+    <span property="dc:title" content="मिति:२०७८/०३/३०/ गते, गोकर्णेश्वर नगरपालिका अन्तर्गतका कृषकहरुलाई ५०% अनुदानमा हाते ट्याक्टर वितरण कार्यक्रम ।" class="rdf-meta element-hidden"></span>
+      <div class="content clearfix">
+  
+     </div>
+  	
+
+      <div class="link-wrapper">
+      <ul class="links inline"><li class="node-readmore first last"><a href="/en/content/%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%A9%E0%A5%A9%E0%A5%A6-%E0%A4%97%E0%A4%A4%E0%A5%87-%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A5%8D%E0%A4%97%E0%A4%A4%E0%A4%95%E0%A4%BE-%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%95%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%B2%E0%A4%BE%E0%A4%88-%E0%A5%AB%E0%A5%A6-%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%A6%E0%A4%BE%E0%A4%A8%E0%A4%AE%E0%A4%BE-%E0%A4%B9%E0%A4%BE%E0%A4%A4%E0%A5%87-%E0%A4%9F%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%95%E0%A5%8D%E0%A4%9F%E0%A4%B0-0" rel="tag" title="मिति:२०७८/०३/३०/ गते, गोकर्णेश्वर नगरपालिका अन्तर्गतका कृषकहरुलाई ५०% अनुदानमा हाते ट्याक्टर वितरण कार्यक्रम ।">Read more<span class="element-invisible"> about मिति:२०७८/०३/३०/ गते, गोकर्णेश्वर नगरपालिका अन्तर्गतका कृषकहरुलाई ५०% अनुदानमा हाते ट्याक्टर वितरण कार्यक्रम ।</span></a></li>
+</ul>    </div>
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+ 								
+
+                    </div>
+					<div class="col-xs-12 col-sm-12 col-md-4">
+                         <div class="region region-sidebar-third">
+    <div id="block-views-news-and-events-block-1" class="block block-views">
+
+  <h3 class="section-title">
+                            <span>
+                               News and Notices		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <div class="view view-news-and-events view-id-news_and_events view-display-id-block_1 view-dom-id-e200f5084a9b0329923d4047791a7edc">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%8B%E0%A4%AD%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF-%E0%A4%AC%E0%A4%BF%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A6%E0%A4%95%E0%A5%8B-astrazeneca-%E0%A4%96%E0%A5%8B%E0%A4%AA%E0%A4%95%E0%A5%8B-%E0%A4%A6%E0%A5%8B%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%8B-%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4">कोभिड -१९ बिरुद्दको AstraZeneca खोपको दोश्रो मात्रा लगाउने बारेको सूचना ।</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%8B%E0%A4%AD%E0%A4%BF%E0%A4%A1-%E0%A5%A7%E0%A5%AF-%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A5%81%E0%A4%A6%E0%A5%8D%E0%A4%A7%E0%A4%95%E0%A5%8B-%E0%A4%AD%E0%A5%87%E0%A4%B0%E0%A5%8B%E0%A4%B8%E0%A5%87%E0%A4%B2-%E0%A4%96%E0%A5%8B%E0%A4%AA%E0%A4%95%E0%A5%8B-%E0%A4%A6%E0%A5%8B%E0%A4%B6%E0%A5%8D%E0%A4%B0%E0%A5%8B-%E0%A4%AE%E0%A4%BE%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%BE-%E0%A4%B2%E0%A4%97%E0%A4%BE%E0%A4%89%E0%A4%A8%E0%A5%87-%E0%A4%AC%E0%A4%BE%E0%A4%B0%E0%A5%87%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">कोभिड-१९ विरुद्धको भेरोसेल खोपको दोश्रो मात्रा लगाउने बारेको सूचना !!!</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%9C%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE-%E0%A4%9C%E0%A4%A8%E0%A4%97%E0%A4%A3%E0%A4%A8%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B2%E0%A4%AF-%E0%A4%9C%E0%A5%8B%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%9F%E0%A5%80%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4">जिल्ला जनगणना कार्यालय, जोरपाटीको सूचना । </a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BF%E0%A4%B6%E0%A5%81%E0%A4%B2%E0%A5%8D%E0%A4%95-%E0%A4%95%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%B8%E0%A4%B0-%E0%A4%AA%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E0%A4%B7%E0%A4%A3-%E0%A4%B8%E0%A4%BF%E0%A4%B5%E0%A4%BF%E0%A4%B0-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">निशुल्क क्यान्सर परिक्षण सिविर संचालन सम्बन्धी सूचना |</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%81-%E0%A4%A8%E0%A4%BE%E0%A4%B0%E0%A5%80%E0%A4%B9%E0%A4%B0%E0%A5%81%E0%A4%95%E0%A5%8B-%E0%A4%AE%E0%A4%B9%E0%A4%BE%E0%A4%A8-%E0%A4%9A%E0%A4%BE%E0%A4%A1-%E0%A4%B9%E0%A4%B0%E0%A4%BF%E0%A4%A4%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE-%E0%A4%A4%E0%A5%80%E0%A4%9C-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE-%E0%A4%95%E0%A5%8B-%E0%A4%B9%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%A6%E0%A4%BF%E0%A4%95-%E0%A4%AE%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%B2%E0%A4%AE%E0%A4%AF-%E0%A4%B6%E0%A5%81%E0%A4%AD%E0%A4%95%E0%A4%BE%E0%A4%AE%E0%A4%A8%E0%A4%BE-%E0%A5%A4">हिन्दु नारीहरुको महान चाड हरितालिका तीज २०७८ को हार्दिक मङ्गलमय शुभकामना ।</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/en/news-and-events">
+    more  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-block-19" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Youtube Channel		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <iframe height="225" src="https://www.youtube.com/embed/zEE7S8N6LUw" width="360"></iframe><iframe height="225" src="https://www.youtube.com/embed/WCNGQSUrPFo" width="360"></iframe>  </div>
+</div>
+<div id="block-block-22" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Contact Details		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <p>1. Planning Branch Head (Officer VIII)<br />
+Min Raj Koirala - <a href="tel:+9779841799664">9841799664</a></p>
+<p>2. Education Officer (Authorized Level VIII)<br />
+Tekendra Prasad Dhakal - <a href="tel:+9779851082020">9851082020</a></p>
+<p>3. Accounting Officer (Authorized Level VII)<br />
+Ramji Rayamajhi - <a href="tel:+9779841364376">9841364376</a></p>
+<p>4. Public Health Officer (Authorized Level VII)<br />
+Hari Prasad Upadhyaya - <a href="tel:+9779841391000">9841391000</a></p>
+<p>5. Information Technology Officer<br />
+Kunta Shrestha - <a href="tel:+9779851154115">9851154115</a><br />
+Email: <a href="mailto:ito.gokarneshwormun@gmail.com">ito.gokarneshwormun@gmail.com</a></p>
+  </div>
+</div>
+  </div>
+ 								
+
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                   <div class="row flex-row">
+					   <div class="region region-sidebar-second">
+    <div id="block-views-elected-officials-block-1" class="block block-views">
+
+  <h3 class="section-title">
+                            <span>
+                               Elected Officials		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <div class="view view-elected-officials view-id-elected_officials view-display-id-block_1 view-dom-id-5631cddeaa142c788aabc98205bda508">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first logo-slogan-center">
+      
+  <div class="views-field views-field-field-photo">        <div class="field-content"><a href="/en/content/santosh-chalise"><img typeof="foaf:Image" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/medium/public/mayor_0.jpg?itok=kqcWlQAv" width="174" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <strong class="field-content">Santosh Chalise</strong>  </div>  
+  <div class="views-field views-field-field-designation">        <div class="field-content">Mayor</div>  </div>  
+  <div class="views-field views-field-field-email">        <div class="field-content">mayor@gokarneshwormun.gov.np</div>  </div>  
+  <div class="views-field views-field-field-phone">        <div class="field-content">9841211933</div>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last logo-slogan-center">
+      
+  <div class="views-field views-field-field-photo">        <div class="field-content"><a href="/en/content/shanti-nepal"><img typeof="foaf:Image" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/medium/public/%E0%A4%B6%E0%A4%BE%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%BF%20%E0%A4%A8%E0%A5%87%E0%A4%AA%E0%A4%BE%E0%A4%B2_0.jpg?itok=KI2khWyz" width="175" height="220" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <strong class="field-content">Shanti Nepal</strong>  </div>  
+  <div class="views-field views-field-field-designation">        <div class="field-content">Deputy Mayor</div>  </div>  
+  <div class="views-field views-field-field-email">        <div class="field-content">deputymayor@gokarneshwormun.gov.np</div>  </div>  
+  <div class="views-field views-field-field-phone">        <div class="field-content">9849236414</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+<div id="block-block-20" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Chief Administrative Officer 		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <p class="rtecenter"><img alt="" src="http://gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/gallery/CAO.jpg" style="float:left; height:100px; width:100px" /></p>
+<div> </div>
+<div> </div>
+<div> </div>
+<div>
+<div> </div>
+<div> </div>
+<div><span style="font-size:18px"><strong>Ram Prasad Acharya</strong></span></div>
+<div>Chief Administrative Officer</div>
+<div>Mobile No: 9851250035</div>
+<div>Email: <a href="mailto:info@gokarneshwormun.gov.np">info@gokarneshwormun.gov.np</a></div>
+</div>
+  </div>
+</div>
+<div id="block-block-15" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Spokesperson		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <p><img alt="" src="/sites/gokarneshwormun.gov.np/files/u51/manoj%20%20sir.jpg" style="height:100px; width:100px" /></p>
+<div><strong>Manoj Kumar Dhungana</strong></div>
+<div>President - Ward No. 8</div>
+<div>9851036903</div>
+  </div>
+</div>
+<div id="block-block-17" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Information Officer		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <p class="rtecenter"><img alt="" src="/sites/gokarneshwormun.gov.np/files/gallery/IMG_3891_0.jpg" style="float:left; height:100px; width:100px" /></p>
+<div> </div>
+<div> </div>
+<div> </div>
+<div>
+<div> </div>
+<div> </div>
+<div><span style="font-size:18px"><strong>Tanka Nath Ghimire</strong></span></div>
+<div>Section Officer </div>
+<div>Mobile No: 9849755700</div>
+<div>Email: <a href="mailto:suchnaadhikari@gokarneshwormun.gov.np">suchnaadhikari@gokarneshwormun.gov.np</a></div>
+</div>
+  </div>
+</div>
+  </div>
+					 </div>
+					</div>
+                </div>
+
+    <div class="row" style="margin-bottom:36px">
+                        <div class="col-xs-12 col-sm-12 col-md-12">
+                        <h3 class="section-title border">
+                            <span>
+							<img src="/sites/all/themes/newmun/img/icons/Group_125.png" style="padding:6px 7px 0 0;">                                </span>
+                        </h3>
+  
+                        <section style="padding-top:23px;">
+						                      <div class="slide-gallery">
+  
+                              
+								<div class="slide">
+                                    <a href="node/36">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/gokarneshwor%20municipality%20office_0.jpg?itok=KiVKmM2v">
+                                    </a>
+                                    <span>Gokarneshwor Municipality Office</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/38">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/gokarneshwor%20temple.png?itok=cTyEYglC">
+                                    </a>
+                                    <span>Gokarneshwor Mahadev Temple</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/397">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/20190701_092931.jpg?itok=XhFjprFf">
+                                    </a>
+                                    <span>"गोकर्ण प्राथमिक अस्पताल उद्घाटन कार्यक्रम २०७६"</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/408">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/f.jpg?itok=W0Cp-YHh">
+                                    </a>
+                                    <span>Local curriculum 2075 Basic Education Information of various religious, historical, archaeological sources and heritage, including geographical, cultural, language and ethnic diversity of Gokarneshwor municipality in the initiative of Mr. Santosh Chalise.</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/412">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/1.jpg?itok=ioEz_mSk">
+                                    </a>
+                                    <span> The Gokarneshwor municipality chief wants to establish a clean city during his tenure</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/490">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/83456193_609527576497150_4307063130791346176_o.jpg?itok=bUY4rsVN">
+                                    </a>
+                                    <span>वस्तु तथा सेवा आपूर्ति गर्ने व्यवसायी र माग तथा उधोग गर्ने नागरिकहरुका लागि सचेतना कार्यक्रम मिति: २०७६/१०/१९ </span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/491">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_E1306.JPG?itok=ickSAYiD">
+                                    </a>
+                                    <span>शिक्षकहरूलाई  प्रवोधीकरण कार्यक्रम ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/603">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/115946761_287158685943726_2330258527043021675_n_0.jpg?itok=NPU_FIyP">
+                                    </a>
+                                    <span>नगर शिक्षा समितिद्वारा गठित बैठक</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/688">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/131479812_204269314519072_2013548453139373362_o_0.jpg?itok=umZ5jJwA">
+                                    </a>
+                                    <span>गोकर्णेश्वर नगरपालिका ४ मा सहयोगी महाविद्यालयको भवन शिक्षा तथा विज्ञान प्रविधि मन्त्री गिरिराजमणि पोख्रेलद्वारा शिलान्याश ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/711">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/DSC03739_1.JPG?itok=XlfGcPK7">
+                                    </a>
+                                    <span>छैठौ नगर सभा -२०७७</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/778">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_8320_1.JPG?itok=3S474ET2">
+                                    </a>
+                                    <span>सातौ नगर सभा सम्पन्न</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/784">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/FB_IMG_1626268042276_1.jpg?itok=7QtzDq0x">
+                                    </a>
+                                    <span>मिति:२०७८/०३/३०/ गते, गोकर्णेश्वर नगरपालिका अन्तर्गतका कृषकहरुलाई ५०% अनुदानमा हाते ट्याक्टर वितरण कार्यक्रम ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/789">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/FB_IMG_1626691307552_0.jpg?itok=fp7xtkQE">
+                                    </a>
+                                    <span>प्रधानमन्त्री शेरबहादुर देउवाले अमेरिकाबाट अनुदान प्राप्त कोरोनाविरुद्धको खोप लगाउने कार्यको गोकर्णेश्वर नगरपालिकाको जोरपाटीबाट शुभारम्भ गरेका छन् । </span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/811">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_9555_1.JPG?itok=kxIh6OrS">
+                                    </a>
+                                    <span>मिति:२०७८/०४/२८ गते गोकर्णेश्वर नगरपालिका शिक्षा शाखाद्वारा आयोजित सिकाई सहजीकरण पुस्तिका विमोचोन एव वितरण कार्यक्रम र अन्तर्राष्ट्रिय युवा दिवसको अवसरमा आयोजित रक्तदान कार्यक्रमका केहि झलकहरु ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/827">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_0113_1.JPG?itok=5jtEPiJn">
+                                    </a>
+                                    <span>मिति: २०७८/०५/१८ गते - हाम्रो संस्कृति र महिला क्षमता विकासका आधारहरु सम्बन्धि कार्यक्रम सम्पन्न |</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/828">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_0302_0.JPG?itok=PHrY61hp">
+                                    </a>
+                                    <span>मिति: २०७८/०५/२० गते - विशेषज्ञ सेवा शुभारम्भ ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/831">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_0769_0.JPG?itok=9HCqfF2t">
+                                    </a>
+                                    <span>साक्षर नगरपालिका घोषणा तथा अन्तरास्ट्रिय साक्षरता दिवस २०२१ को कार्यक्रम मिति: २०७८/०५/२३ गते बुधवार</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/833">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/241559924_999920687457835_2840682253709880363_n_0.jpg?itok=reVMtvYb">
+                                    </a>
+                                    <span>व्हीलचेयर हस्तान्तरण कार्यक्रम ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/836">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_1090_0.JPG?itok=x7P42uwN">
+                                    </a>
+                                    <span>मिति: २०७८/०५/२९ गते मंगलवार: उपमेयर संग महिला कार्यक्रम अन्तरगत अभिमुखीकरण, अन्तरक्रिया एबं स्वयंसेविका सम्मान कार्यक्रम ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/841">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_1322_0.JPG?itok=dhFzYe2W">
+                                    </a>
+                                    <span>मिति: २०७८/०५/३१  गते बिहिबार उपमेयर संग महिला कार्यक्रम अन्तरगत अभिमुखीकरण, अन्तरक्रिया एबं स्वयंसेविका सम्मान कार्यक्रम।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/844">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_1840_0.JPG?itok=3_j7wkuC">
+                                    </a>
+                                    <span>मिति: २०७८/०६/०१ गते शुक्रबार सहकारीमा डिजिटल प्रविधिको प्रयोग विषयक अन्तरक्रिया कार्यक्रम ।</span>
+                                </div>
+								  
+                              
+								<div class="slide">
+                                    <a href="node/845">
+
+<img src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/styles/slickstyle/public/gallery/IMG_2011_0.JPG?itok=K4_h6RjO">
+                                    </a>
+                                    <span>मिति: २०७८/०६/०१ र २०७८/०६/०२ गते - गोकर्णेश्वर नगरस्तरीय राष्ट्रिय खोप कार्यक्रमको पालिका स्तरीय समीक्षा तथा सुक्ष्म योजना निर्माण ।</span>
+                                </div>
+								                             </div>
+                        </section>
+                    </div>
+               
+                </div>
+            </div>
+     
+	   </section>
+
+        <section class="detail">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-5">
+          <div class="region region-services">
+    <div id="block-views-services-block-1" class="block block-views">
+
+  <h3 class="section-title">
+                            <span>
+                               Services		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <div class="view view-services view-id-services view-display-id-block_1 view-dom-id-7c1538914bcfa3a64095027bb6661d42">
+        
+  
+  
+      <div class="view-content">
+      <div class="panel-group" id="accordion9" role="tablist" aria-multiselectable="true">
+                            
+		
+
+	<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading1">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion9" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+						नियमित/तल्ला थप  र  नक्सा संशोधन</a>					
+				</h4>
+			</div>
+			<div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+				<div class="panel-body">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="section-title sewa">
+                            
+							<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/settings.svg">सेवा प्रकारः-  	
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/time.png">सेवा समयः-   सम्पूर्ण कागजपत्र पुगे सोही दिन तल्ला थपको दरखास्त दर्ता हुने ।		
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/usericon.png">जिम्मेवार अधिकारीः-  शाखा प्रमुख								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/department.svg">सेवा दिने कार्यालयः-    भवन तथा वस्ती विकास शाखा कोठा नं ३०१								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/cost.svg">सेवा शुल्कः-   न.पा.को आर्थिक ऐन बमोजिम	
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/document.svg">आवश्यक कागजातहरुः-  <p>१	निवेदन<br />
+२	संशोधित नयाँ नक्साको २ प्रति<br />
+३.	घर धनिको फोटो २ प्रति<br />
+४.	जग्गाधनी दर्ता प्रमाण पुर्जा (सक्कल समेत)<br />
+५.	नागरिकताको प्रमाणपत्रको प्रतिलिपी (सक्कल समेत)<br />
+६.	पहिले पास गरेको नक्सा र प्रमाणपत्रको प्रतिलिपी<br />
+७.	चालु आ.वको  एकीकृत सम्पति कर तिरेको रसिदको प्रतिलिपी<br />
+८.	अन्य कागजातको हकमा नयाँ नक्सा पास गर्दा आवश्यक पर्ने सबै कागजातहरु  पेश गर्नुपर्नेछ<br />
+९.	छिमेकीको मञ्जुरी<br />
+१०.	तल्ला थप गर्न सकिने प्राविधिक प्रतिवेदन</p>
+ 	
+								</span>
+								
+                        </div>
+                        
+                    </div>
+				</div>
+			</div>
+		</div>
+	
+
+	<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading2">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion9" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+						नयाँ घर निर्माण नक्सा आवेदन फाराम खरिद</a>					
+				</h4>
+			</div>
+			<div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+				<div class="panel-body">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="section-title sewa">
+                            
+							<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/settings.svg">सेवा प्रकारः-  	
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/time.png">सेवा समयः-   सोही दिन		
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/usericon.png">जिम्मेवार अधिकारीः-  शाखा प्रमुख								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/department.svg">सेवा दिने कार्यालयः-    राजश्व शाखा कोठा नं ३०२								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/cost.svg">सेवा शुल्कः-   १०००।–	
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/document.svg">आवश्यक कागजातहरुः-  <p>नक्सा दरखास्तवालाकोे जग्गाधनि प्रमाणपुर्जा</p>
+ 	
+								</span>
+								
+                        </div>
+                        
+                    </div>
+				</div>
+			</div>
+		</div>
+	
+
+	<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading3">
+				<h4 class="panel-title">
+					<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion9" href="#collapse3" aria-expanded="true" aria-controls="collapse3">
+						नयाँँ घर नक्सा दर्ता</a>					
+				</h4>
+			</div>
+			<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+				<div class="panel-body">
+					<div class="col-xs-12 col-sm-12 col-md-12">
+                        <div class="section-title sewa">
+                            
+							<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/settings.svg">सेवा प्रकारः-  घर जग्गा	
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/time.png">सेवा समयः-   सम्पूर्ण कागजपत्र पुगे सोहि दिन 		
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/usericon.png">जिम्मेवार अधिकारीः-  शाखा प्रमुख								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/department.svg">सेवा दिने कार्यालयः-    कोठा नं ३०१								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/cost.svg">सेवा शुल्कः-   निशुल्क	
+								</span><br>
+								<span style="font-size:15px">
+                                <img src="/sites/all/themes/newmun/img/icons/document.svg">आवश्यक कागजातहरुः-  <p>१. निबेदन फाराम </p>
+<p>२. जग्गाधनी दर्ता प्रमाण पुर्जा</p>
+<p>३. नागरिकताको प्रमाणपत्रको प्रतिलिपि</p>
+<p>४.कि.नं प्रष्ट भएको नापी नक्सा ( ब्लु प्रिन्ट ) सक्कल</p>
+<p>५.  नक्सा पास गरिने घरको नक्साको प्रतिलिपि </p>
+<p>६. चालु आ.वको सम्पति कर तिरेको रसिदको प्रतिलिपि</p>
+<p>७. जग्गा कुनै निकायमा धितोको लागि रशेको भए सम्बन्धित निकायबाट स्वीकृति पत्र</p>
+<p>८. नक्सवाला मोही भएमा जग्गाधनी वा गुठीको स्वीकृतिपत्र</p>
+<p>९. वारेश राखी नक्सा पास गर्न वा वारेशनामा र वरिशको नागरिकताको प्रमंपत्रको प्रतिलिपि </p>
+<p>१०.भवन निर्माण हुने जग्गाको बाटो प्रष्ट नभएमावडा कार्यालयको बाटो कायम भएको सिफारिस </p>
+<p>११.डिजाइनरको NEC प्रमाणपत्र नगरपालिकामा सुचिकृत भएको प्रमंपत्रको प्रतिलिपि</p>
+<p> </p>
+ 	
+								</span>
+								
+                        </div>
+                        
+                    </div>
+				</div>
+			</div>
+		</div>
+	
+				                            
+	          
+	
+  </div>
+	
+
+	
+	
+
+
+
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+    
+					</div>
+					
+                    <div class="col-xs-12 col-sm-12 col-md-7" style="padding:25px 38px 0 38px">
+				   <div class="region region-sidebar-first">
+    <div id="block-quicktabs-quick-tab" class="block block-quicktabs">
+
+  <h3 class="section-title">
+                            <span>
+                               Notices		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <div  id="quicktabs-quick_tab" class="quicktabs-wrapper quicktabs-style-basic"><div class="item-list"><ul class="quicktabs-tabs quicktabs-style-basic"><li class="active first"><a href="/en/node?qt-quick_tab=0#qt-quick_tab" id="quicktabs-tab-quick_tab-0" class="quicktabs-tab quicktabs-tab-block quicktabs-tab-block-views-delta-budget-and-program-block active">बजेट</a></li>
+<li><a href="/en/node?qt-quick_tab=1#qt-quick_tab" id="quicktabs-tab-quick_tab-1" class="quicktabs-tab quicktabs-tab-block quicktabs-tab-block-views-delta-plan-and-projects-block active">योजना</a></li>
+<li><a href="/en/node?qt-quick_tab=2#qt-quick_tab" id="quicktabs-tab-quick_tab-2" class="quicktabs-tab quicktabs-tab-block quicktabs-tab-block-views-delta-30864cbbfa852e38c54d1241a5189f6f active">खरिद</a></li>
+<li class="last"><a href="/en/node?qt-quick_tab=3#qt-quick_tab" id="quicktabs-tab-quick_tab-3" class="quicktabs-tab quicktabs-tab-block quicktabs-tab-block-views-delta-documents-block-1 active">विधुतीय सेवा</a></li>
+</ul></div><div id="quicktabs-container-quick_tab" class="quicktabs_main quicktabs-style-basic"><div  id="quicktabs-tabpage-quick_tab-0" class="quicktabs-tabpage "><div id="block-views-budget-and-program-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-budget-and-program view-id-budget_and_program view-display-id-block view-dom-id-14808dc2ddc68a3373507bfdf52ad8ce">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%BF-%E0%A4%AC%E0%A4%9C%E0%A5%87%E0%A4%9F-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%90%E0%A4%A8-%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8-%E0%A4%90%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%A4-%E0%A4%86%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AE%E0%A5%A6%E0%A5%AD%E0%A5%AF">नीति, बजेट तथा कार्यक्रम ( आर्थिक ऐन र विनियोजन ऐन समेत ) आ.व. २०७८/०७९ </a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%BF-%E0%A4%AC%E0%A4%9C%E0%A5%87%E0%A4%9F-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%90%E0%A4%A8-%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8-%E0%A4%90%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%A4-%E0%A4%86%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD%E0%A5%AD%E0%A5%AE">नीति, बजेट तथा कार्यक्रम ( आर्थिक ऐन  र विनियोजन ऐन समेत ) आ.व. २०७७/७८</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%BF-%E0%A4%AC%E0%A4%9C%E0%A5%87%E0%A4%9F-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%90%E0%A4%A8-%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8-%E0%A4%90%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%A4-%E0%A4%86%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AC%E0%A5%A4%E0%A5%AD%E0%A5%AD">नीति, बजेट तथा कार्यक्रम ( आर्थिक ऐन र विनियोजन ऐन समेत ) आ.व. २०७६।७७</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%BF-%E0%A4%AC%E0%A4%9C%E0%A5%87%E0%A4%9F-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%90%E0%A4%A8-%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8-%E0%A4%90%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%A4-%E0%A4%86%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AB%E0%A5%A4%E0%A5%AD%E0%A5%AC">नीति, बजेट तथा कार्यक्रम ( आर्थिक ऐन र विनियोजन ऐन समेत ) आ.व. २०७५।७६</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A5%80%E0%A4%A4%E0%A4%BF-%E0%A4%AC%E0%A4%9C%E0%A5%87%E0%A4%9F-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%86%E0%A4%B0%E0%A5%8D%E0%A4%A5%E0%A4%BF%E0%A4%95-%E0%A4%90%E0%A4%A8-%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8-%E0%A4%90%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%87%E0%A4%A4-%E0%A4%86%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AA%E0%A5%A4%E0%A5%AD%E0%A5%AB">नीति, बजेट तथा कार्यक्रम ( आर्थिक ऐन र विनियोजन ऐन समेत ) आ.व. २०७४।७५</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+</div><div  id="quicktabs-tabpage-quick_tab-1" class="quicktabs-tabpage quicktabs-hide"><div id="block-views-plan-and-projects-block" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-plan-and-projects view-id-plan_and_projects view-display-id-block view-dom-id-74b2320c93ee38ebfc4d725bf170a409">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%86-%E0%A4%B5-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AA%E0%A5%AD%E0%A5%AB-%E0%A4%95%E0%A5%8B-%E0%A4%AF%E0%A5%8B%E0%A4%9C%E0%A4%A8%E0%A4%BE-%E0%A4%A4%E0%A4%A5%E0%A4%BE-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%B9%E0%A4%B0%E0%A5%81">आ. व. २०७४/७५ को योजना तथा कार्यक्रमहरु </a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+</div><div  id="quicktabs-tabpage-quick_tab-2" class="quicktabs-tabpage quicktabs-hide"><div id="block-views-30864cbbfa852e38c54d1241a5189f6f" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-public-procurement-tender-notices view-id-public_procurement_tender_notices view-display-id-block view-dom-id-11a0e1a639cdc306ac2db08d03a4ed5e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/usg-machine-%E0%A4%96%E0%A4%B0%E0%A4%BF%E0%A4%A6-%E0%A4%97%E0%A4%B0%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%B6%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%A6%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%89%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%AC%E0%A5%8D%E0%A4%B5%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">USG Machine खरिद गर्ने कार्य सम्बन्धी शिलबन्दी दरभाउपत्र आब्व्हानको सूचना !!</a></span>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content"><em class="placeholder">2 months 1 week</em> ago</span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%96%E0%A4%B0%E0%A4%BF%E0%A4%A6-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%B5%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%B5%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%B0%E0%A4%A6%E0%A5%8D%E0%A4%A6-%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%8F%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">खरिद कार्य सम्वन्धी वोलपत्र रद्द गरिएको सूचना !!!</a></span>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content"><em class="placeholder">11 months 5 days</em> ago</span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%A6%E0%A4%B0%E0%A4%AD%E0%A4%BE%E0%A4%89%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%B8%E0%A5%8D%E0%A4%B5%E0%A5%80%E0%A4%95%E0%A5%83%E0%A4%A4-%E0%A4%97%E0%A4%B0%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%86%E0%A4%B6%E0%A4%AF%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">सिलबन्दी दरभाउपत्र  स्वीकृत गर्ने आशयको सूचना !!</a></span>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content"><em class="placeholder">1 year 6 days</em> ago</span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%B8%E0%A4%BF%E0%A4%B2%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE">सिलबन्दी बोलपत्र आह्वानको सूचना !!!</a></span>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content"><em class="placeholder">1 year 1 week</em> ago</span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%AC%E0%A5%8B%E0%A4%B2%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-%E0%A4%86%E0%A4%B9%E0%A5%8D%E0%A4%B5%E0%A4%BE%E0%A4%A8-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A4%BF-%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE-%E0%A5%A4-0">बोलपत्र आह्वान सम्बन्धि सूचना ।</a></span>  </div>  
+  <div class="views-field views-field-changed">        <span class="field-content"><em class="placeholder">1 year 2 months</em> ago</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+</div><div  id="quicktabs-tabpage-quick_tab-3" class="quicktabs-tabpage quicktabs-hide"><div id="block-views-documents-block-1" class="block block-views">
+
+    
+  <div class="content">
+    <div class="view view-documents view-id-documents view-display-id-block_1 view-dom-id-347909e525393360c728ad2f11b34594">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/online-vital-registration-birth-death-marriage-migration-and-divorce">Online Vital Registration (Birth, Death, Marriage, Migration and Divorce)</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95-%E0%A4%B5%E0%A4%A1%E0%A4%BE%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0-0">नागरिक वडापत्र</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+</div></div></div>  </div>
+</div>
+  </div>
+ 
+  </div>
+                </section>
+				
+		<section style="margin-top:20px" >
+		
+<div id="blocks-wrapper">
+<div class="container">
+  <div class="row">
+
+      <div id="workflow" class="clearfix">
+            <div class="col-md-3"><div class="sidebar">  <div class="region region-workflow-first">
+    <div id="block-block-8" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Important Links		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <ul><li><a>Office of Chief Minister and Council of Minister</a></li>
+<p> </p>
+<li><a href="http://www.moha.gov.np/" title="">Ministry of Home Affairs</a></li>
+<p> </p>
+<li><a href="http://www.mod.gov.np/">Ministry of Defence</a></li>
+<p> </p>
+<li><a href="http://www.lawcommission.gov.np/">Nepal Law Commission</a></li>
+<p> </p>
+<li><a href="https://www.moic.gov.np/en/">Ministry of Information and Communications</a></li>
+<p> </p>
+<li><a href="http://www.psc.gov.np/">Public Service Commission</a></li>
+<p> </p>
+<li><a href="https://ocmcm.p3.gov.np/">Ministry of Urban Development</a></li>
+<p> 
+</p></ul><p> </p>
+  </div>
+</div>
+  </div>
+</div></div>
+            <div class="col-md-3"><div class="sidebar">  <div class="region region-workflow-second">
+    <div id="block-views-act-law-and-directives-block" class="block block-views">
+
+  <h3 class="section-title">
+                            <span>
+                               Act, Law and Directives		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <div class="view view-act-law-and-directives view-id-act_law_and_directives view-display-id-block view-dom-id-c7a1220699c735565baa36aab21f8dae">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%95%E0%A5%8B-%E0%A4%B2%E0%A5%88%E0%A4%99%E0%A5%8D%E0%A4%97%E0%A4%BF%E0%A4%95-%E0%A4%B9%E0%A4%BF%E0%A4%82%E0%A4%B8%E0%A4%BE-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A4%BE%E0%A4%B0%E0%A4%A3-%E0%A4%95%E0%A5%8B%E0%A4%B7-%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD">गोकर्णेश्वर नगरपालिकाको लैङ्गिक हिंसा निवारण कोष सञ्चालन कार्यविधि , २०७७</a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%95%E0%A5%8B-%E0%A4%AC%E0%A4%BE%E0%A4%B2%E0%A4%95%E0%A5%8B%E0%A4%B7-%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF-%E2%80%93-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD">गोकर्णेश्वर नगरपालिकाको बालकोष सञ्चालन कार्यविधि – २०७७</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%97%E0%A5%8B%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%A3%E0%A5%87%E0%A4%B6%E0%A5%8D%E0%A4%B5%E0%A4%B0-%E0%A4%A8%E0%A4%97%E0%A4%B0%E0%A4%AA%E0%A4%BE%E0%A4%B2%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%95%E0%A5%8B-%E0%A4%AC%E0%A4%BE%E0%A4%B2-%E0%A4%85%E0%A4%A7%E0%A4%BF%E0%A4%95%E0%A4%BE%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A4%BF%E0%A4%A4%E0%A4%BF-%E0%A4%B8%E0%A4%9E%E0%A5%8D%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD">गोकर्णेश्वर नगरपालिकाको बाल अधिकार समिति सञ्चालन कार्यविधि, २०७७</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%AC%E0%A4%BE%E0%A4%B2%E0%A5%81%E0%A4%B5%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%A8-%E0%A4%89%E0%A4%A7%E0%A5%8B%E0%A4%97-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD-0">बालुवा प्रशोधन उधोग संचालन कार्यविधि-२०७७</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%95%E0%A5%83%E0%A4%B7%E0%A4%BF-%E0%A4%B5%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%B8%E0%A4%BE%E0%A4%AF-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AC%E0%A4%B0%E0%A5%8D%E0%A4%A7%E0%A4%A8-%E0%A4%85%E0%A4%A8%E0%A5%81%E0%A4%A6%E0%A4%BE%E0%A4%A8-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%95%E0%A5%8D%E0%A4%B0%E0%A4%AE-%E0%A4%B8%E0%A4%82%E0%A4%9A%E0%A4%BE%E0%A4%B2%E0%A4%A8-%E0%A4%B8%E0%A4%82%E0%A4%B6%E0%A5%8B%E0%A4%A7%E0%A4%BF%E0%A4%A4-%E0%A4%95%E0%A4%BE%E0%A4%B0%E0%A5%8D%E0%A4%AF%E0%A4%B5%E0%A4%BF%E0%A4%A7%E0%A4%BF-%E0%A5%A8%E0%A5%A6%E0%A5%AD%E0%A5%AD">कृषि व्यवसाय प्रबर्धन अनुदान कार्यक्रम संचालन संशोधित कार्यविधि-२०७७</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/en/act-law-and-directives">
+    more  </a>
+</div>
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div></div>
+            <div class="col-md-3"><div class="sidebar">  <div class="region region-workflow-third">
+    <div id="block-views-application-formats-block" class="block block-views">
+
+  <h3 class="section-title">
+                            <span>
+                               Application Formats		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <div class="view view-application-formats view-id-application_formats view-display-id-block view-dom-id-4c33082e98d4d7da2030a88121d498c2">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%BE%E0%A4%A3-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%A8-%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%BE%E0%A4%89%E0%A4%81">निर्माण सम्पन्न गरिपाउँ </a></span>  </div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BE%E0%A4%A4%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%BF%E0%A4%A4-%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%BE%E0%A4%89%E0%A4%81-%E0%A4%AD%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A6%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%A2%E0%A4%BE%E0%A4%81%E0%A4%9A%E0%A4%BE">नाताप्रमाणित गरिपाउँ भन्ने निवेदनको ढाँचा</a></span>  </div>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%A8%E0%A4%BE%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A4%A4%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%AA%E0%A4%A4%E0%A5%8D%E0%A4%B0%E0%A4%95%E0%A5%8B-%E0%A4%B2%E0%A4%BE%E0%A4%97%E0%A4%BF-%E0%A4%B8%E0%A4%BF%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%B8-%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%BE%E0%A4%89%E0%A4%81">नागरिकता प्रमाणपत्रको लागि सिफारिस गरिपाउँ</a></span>  </div>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ne/content/%E0%A4%9A%E0%A4%BE%E0%A4%B0-%E0%A4%95%E0%A4%BF%E0%A4%B2%E0%A5%8D%E0%A4%B2%E0%A4%BE-%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%BF%E0%A4%A4-%E0%A4%97%E0%A4%B0%E0%A4%BF%E0%A4%AA%E0%A4%BE%E0%A4%89%E0%A4%81-%E0%A4%AD%E0%A4%A8%E0%A5%8D%E0%A4%A8%E0%A5%87-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A6%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%A2%E0%A4%BE%E0%A4%81%E0%A4%9A%E0%A4%BE">चार किल्ला प्रमाणित गरिपाउँ भन्ने निवेदनको ढाँचा</a></span>  </div>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/en/content/%E0%A4%98%E0%A4%B0%E0%A4%9C%E0%A4%97%E0%A5%8D%E0%A4%97%E0%A4%BE-%E0%A4%95%E0%A4%B0-%E0%A4%B8%E0%A4%AE%E0%A5%8D%E0%A4%AC%E0%A4%A8%E0%A5%8D%E0%A4%A7%E0%A5%80-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A6%E0%A4%A8-%E0%A4%AB%E0%A4%BE%E0%A4%B0%E0%A4%AE">घरजग्गा कर सम्बन्धी निवेदन फारम</a></span>  </div>  </div>
+  <div class="views-row views-row-6 views-row-even views-row-last">
+      
+  <div class="views-field views-field-title">        <span class="field-content"><a href="/ne/content/%E0%A4%98%E0%A4%B0-%E0%A4%A8%E0%A4%BF%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%BE%E0%A4%A3%E0%A4%95%E0%A5%8B-%E0%A4%B2%E0%A4%BE%E0%A4%97%E0%A4%BF-%E0%A4%A8%E0%A4%BF%E0%A4%B5%E0%A5%87%E0%A4%A6%E0%A4%A8%E0%A4%95%E0%A5%8B-%E0%A4%A2%E0%A4%BE%E0%A4%81%E0%A4%9A%E0%A4%BE-0">घर निर्माणको लागि निवेदनको ढाँचा</a></span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+</div></div>
+            <div class="col-md-3"><div class="sidebar">  <div class="region region-workflow-last">
+    <div id="block-poll-recent" class="block block-poll">
+
+  <h3 class="section-title">
+                            <span>
+                               Poll		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <form action="/en" method="post" id="poll-view-voting" accept-charset="UTF-8"><div><div class="poll">
+  <div class="vote-form">
+    <div class="choices">
+              <div class="title">Do you like this website ?</div>
+            <div class="form-item form-type-radios form-item-choice">
+  <label class="element-invisible" for="edit-choice">Choices </label>
+ <div id="edit-choice" class="form-radios"><div class="form-item form-type-radio form-item-choice">
+ <input type="radio" id="edit-choice-3" name="choice" value="3" class="form-radio" />  <label class="option" for="edit-choice-3">Yes </label>
+
+</div>
+<div class="form-item form-type-radio form-item-choice">
+ <input type="radio" id="edit-choice-4" name="choice" value="4" class="form-radio" />  <label class="option" for="edit-choice-4">No </label>
+
+</div>
+</div>
+</div>
+    </div>
+    <input type="submit" id="edit-vote" name="op" value="Vote" class="form-submit" />  </div>
+    <input type="hidden" name="form_build_id" value="form-SiYkgr47EHnYQCq2x71q__sJToTusp2S88aMuwMomrE" />
+<input type="hidden" name="form_id" value="poll_view_voting" />
+</div>
+</div></form><ul class="links"><li class="0 first"><a href="/en/poll" title="View the list of polls on this site.">Older polls</a></li>
+<li class="1 last"><a href="/en/node/76/results" title="View the current poll results.">Results</a></li>
+</ul>  </div>
+</div>
+  </div>
+</div></div>
+      </div>
+
+      <div id="triptych" class="clearfix">
+            <div class="col-md-3"><div class="sidebar"></div></div>
+            <div class="col-md-3"><div class="sidebar"></div></div>
+            <div class="col-md-3"><div class="sidebar"></div></div>
+            <div class="col-md-3"><div class="sidebar"></div></div>
+      </div>
+
+  </div>
+</div> <!-- /#page, /#page-wrapper -->
+</div> <!-- /#triptych, /#blocks-wrapper -->
+
+		
+		</section>
+
+    </main>
+
+     <footer style="background-image: url('https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/img/is.jpg');" >
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-3 col-sm-6">
+                    
+                  <div class="region region-footer-firstcolumn">
+    <div id="block-menu-menu-notices" class="block block-menu">
+
+  <h3 class="section-title">
+                            <span>
+                               Notices		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/en/taxonomy/term/16" title="">News and Notices</a></li>
+<li class="leaf"><a href="/en/taxonomy/term/59" title="">Public Procurement/ Tender Notices</a></li>
+<li class="leaf"><a href="/en/act-law-directives" title="">Act, law and directives</a></li>
+<li class="last leaf"><a href="/en/tax-and-fees" title="">Tax and Fees</a></li>
+</ul>  </div>
+</div>
+  </div>
+				</div>
+                <div class="col-xs-12 col-md-3 col-sm-6">
+                    
+                 <div class="region region-footer-secondcolumn">
+    <div id="block-menu-menu-egov-services" class="block block-menu">
+
+  <h3 class="section-title">
+                            <span>
+                               eGov services		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/en/vital-registration" title="">Vital Registration</a></li>
+<li class="leaf"><a href="/en/social-security" title="">Social Security</a></li>
+<li class="leaf"><a href="/en/citizen-charter" title="">Citizen Charter</a></li>
+<li class="last leaf"><a href="/en/application-letter" title="">Application Letter</a></li>
+</ul>  </div>
+</div>
+  </div>
+			   </div>
+                <div class="col-xs-12 col-md-3 col-sm-6">
+                    
+                  <div class="region region-footer-thirdcolumn">
+    <div id="block-menu-menu-report" class="block block-menu">
+
+  <h3 class="section-title">
+                            <span>
+                               Reports		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/en/annual-progress-report" title="">Annual Progress Report</a></li>
+<li class="leaf"><a href="/en/trimester-progress-report" title="">Trimester Progress Report</a></li>
+<li class="leaf"><a href="/en/public-hearing" title="">Public Hearing</a></li>
+<li class="last leaf"><a href="/en/public-audit" title="">Public Audit</a></li>
+</ul>  </div>
+</div>
+  </div>
+				</div>
+
+                <div class="col-xs-12 col-md-3 col-sm-6">
+                    
+                  <div class="region region-footer-fourthcolumn">
+    <div id="block-block-4" class="block block-block">
+
+  <h3 class="section-title">
+                            <span>
+                               Contact Us		</span>
+                        </h3>
+  
+  
+  <div class="content">
+    <p>Street Address: Gokarneshwor - 8, Jorpati</p>
+<p>Kathmandu, Bagmati Pradesh, Nepal</p>
+<p>Phone: <a href="tel:+97714914114">+97714914114</a>, <a href="tel:+97714914115">+97714914115</a></p>
+<p>Fax :  <a href="+97714914116">+97714914116</a></p>
+<p>Email: <a href="mailto:gokarneshwormun@gmail.com">gokarneshwormun@gmail.com</a></p>
+<p>Toll Free No: <a href="tel:16600137888">16600137888</a></p>
+  </div>
+</div>
+  </div>
+				</div>
+            </div>
+            <p class="footer-bottom">© 2021&nbsp; Gokarneshwor Municipality</p>
+        </div>
+    </footer>
+	   
+
+    <div class="overylay-zoom"></div>
+   
+
+   <script type="text/javascript" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/js/js_yMSKTzBO0KmozyLwajzFOrrt_kto_9mtccAkb0rm7gc.js"></script>
+<script type="text/javascript" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/js/js_82BGcKa1QeJa_t74Llt_jtKzuNSJKAzULHzrDMGFBs8.js"></script>
+<script type="text/javascript" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/js/js_R9UbiVw2xuTUI0GZoaqMDOdX0lrZtgX-ono8RVOUEVc.js"></script>
+<script type="text/javascript" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/js/js_QKGcbQyY3fkhRlotC7hhagE5lRooaJhlnx95eK3B0XA.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var text_resize_scope = "main, .view-content, h2, .content";
+          var text_resize_minimum = "16";
+          var text_resize_maximum = "25";
+          var text_resize_line_height_allow = 0;
+          var text_resize_line_height_min = "16";
+          var text_resize_line_height_max = "36";
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/js/js_9rl3pLCVucVjw0v1wuvtAjsZ4fyD4tqnDdRLSyctru0.js"></script>
+<script type="text/javascript" src="https://www.gokarneshwormun.gov.np/sites/gokarneshwormun.gov.np/files/js/js_NAdtySDbA6lFVl20MgUrWMtm1q_WpFVlaxStWfLbCDU.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"en\/","ajaxPageState":{"theme":"newmun","theme_token":"J9nSeOfAEwtP1wnf8RX_8Avzv5ImomE8swzkwO--Hf8","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"misc\/jquery.cookie.js":1,"sites\/all\/modules\/views_slideshow\/js\/views_slideshow.js":1,"sites\/all\/modules\/admin_menu\/admin_devel\/admin_devel.js":1,"misc\/progress.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.js":1,"0":1,"sites\/all\/modules\/text_resize\/text_resize.js":1,"sites\/all\/libraries\/jquery.cycle\/jquery.cycle.all.js":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/js\/views_slideshow_cycle.js":1,"sites\/all\/modules\/quicktabs\/js\/quicktabs.js":1,"sites\/all\/themes\/newmun\/js\/common\/jquery.min.js":1,"sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/js\/bootstrap.min.js":1,"sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/js\/bootstrap-tabcollapse.js":1,"sites\/all\/themes\/newmun\/js\/vendor\/slick-1-9\/slick.min.js":1,"sites\/all\/themes\/newmun\/js\/vendor\/malihu-custom-scroll\/jquery.mCustomScrollbar.concat.min.js":1,"sites\/all\/themes\/newmun\/js\/common\/main.js":1,"sites\/all\/themes\/newmun\/js\/pages\/home-municipality.js":1,"sites\/all\/themes\/newmun\/js\/pages\/gallery.js":1,"sites\/all\/themes\/newmun\/js\/vendor\/lightgallery\/lightgallery-all.js":1,"sites\/all\/themes\/newmun\/js\/pages\/home-CM.js":1,"sites\/all\/themes\/newmun\/js\/vendor\/easypaginate\/jquery.easyPaginate.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/poll\/poll.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"modules\/locale\/locale.css":1,"sites\/all\/modules\/text_resize\/text_resize.css":1,"sites\/all\/modules\/views_slideshow\/views_slideshow_controls_text.css":1,"sites\/all\/modules\/views_slideshow\/contrib\/views_slideshow_cycle\/views_slideshow_cycle.css":1,"sites\/all\/modules\/quicktabs\/css\/quicktabs.css":1,"sites\/all\/modules\/quicktabs\/quicktabs_tabstyles\/tabstyles\/basic\/basic.css":1,"sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/css\/bootstrap.min.css":1,"sites\/all\/themes\/newmun\/js\/vendor\/bootstrap\/css\/bootstrap-theme.min.css":1,"sites\/all\/themes\/newmun\/js\/vendor\/slick-1-9\/slick.css":1,"sites\/all\/themes\/newmun\/js\/vendor\/slick-1-9\/slick-theme.css":1,"sites\/all\/themes\/newmun\/js\/vendor\/malihu-custom-scroll\/jquery.mCustomScrollbar.min.css":1,"sites\/all\/themes\/newmun\/css\/common\/main.css":1,"sites\/all\/themes\/newmun\/css\/common\/pp.css":1,"sites\/all\/themes\/newmun\/css\/common\/header.css":1,"sites\/all\/themes\/newmun\/css\/common\/footer.css":1,"sites\/all\/themes\/newmun\/css\/theme\/theme-red-blue.css":1,"sites\/all\/themes\/newmun\/css\/pages\/home-Municipality.css":1,"sites\/all\/themes\/newmun\/css\/pages\/gallery.css":1,"sites\/all\/themes\/newmun\/css\/common\/inner-page.css":1,"sites\/all\/themes\/newmun\/css\/pages\/note.css":1,"sites\/all\/themes\/newmun\/css\/pages\/contact.css":1,"sites\/all\/themes\/newmun\/css\/ie.css":1,"sites\/all\/themes\/newmun\/css\/ie6.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"viewsSlideshow":{"slider-block_1":{"methods":{"goToSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"nextSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"pause":["viewsSlideshowControls","viewsSlideshowCycle"],"play":["viewsSlideshowControls","viewsSlideshowCycle"],"previousSlide":["viewsSlideshowPager","viewsSlideshowSlideCounter","viewsSlideshowCycle"],"transitionBegin":["viewsSlideshowPager","viewsSlideshowSlideCounter"],"transitionEnd":[]},"paused":0}},"viewsSlideshowControls":{"slider-block_1":{"bottom":{"type":"viewsSlideshowControlsText"}}},"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slider-block_1":{"num_divs":22,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slider-block_1","effect":"scrollRight","transition_advanced":1,"timeout":5000,"speed":600,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}},"urlIsAjaxTrusted":{"\/en":true},"quicktabs":{"qt_quick_tab":{"name":"quick_tab","tabs":[{"bid":"views_delta_budget_and_program-block","hide_title":1},{"bid":"views_delta_plan_and_projects-block","hide_title":1},{"bid":"views_delta_30864cbbfa852e38c54d1241a5189f6f","hide_title":1},{"bid":"views_delta_documents-block_1","hide_title":1}],"viewsSlideshowCycle":{"#views_slideshow_cycle_main_slider-block_1":{"num_divs":22,"id_prefix":"#views_slideshow_cycle_main_","div_prefix":"#views_slideshow_cycle_div_","vss_id":"slider-block_1","effect":"scrollRight","transition_advanced":1,"timeout":5000,"speed":600,"delay":0,"sync":1,"random":0,"pause":1,"pause_on_click":0,"play_on_hover":0,"action_advanced":0,"start_paused":0,"remember_slide":0,"remember_slide_days":1,"pause_in_middle":0,"pause_when_hidden":0,"pause_when_hidden_type":"full","amount_allowed_visible":"","nowrap":0,"pause_after_slideshow":0,"fixed_height":1,"items_per_slide":1,"wait_for_image_load":1,"wait_for_image_load_timeout":3000,"cleartype":0,"cleartypenobg":0,"advanced_options":"{}"}}}}});
+//--><!]]>
+</script>
+<script> 
+$(document).ready(function () {
+$('.main-nav li.has-child>a').attr('href','javascript:void(0)');
+$('ul.quicktabs-tabs.quicktabs-style-basic').attr('class','tab-default');
+//$('div#quicktabs-container-quicktab').attr('class','tab-content tab-default-content');
+});
+
+</script>  
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>  
+
+</html>

@@ -1,0 +1,257 @@
+.section-title {
+    color: rgb(5, 55, 117);
+}
+
+.more-link {
+    border: 1px solid rgb(178, 28, 66);
+    background-color: rgb(178, 28, 66);
+}
+
+.more-link:hover,
+.more-link:focus {
+    background-color: transparent;
+    color: rgb(178, 28, 66);
+}
+
+.higlight-content {
+    border-top: 5px solid #b21c42;
+}
+
+.higlight-content a {
+    color: #b21c42;
+}
+
+/*=============== Start Tab Default ===============*/
+
+.tab-default li a {
+    color: rgb(5, 55, 117);
+}
+
+.tab-default li.active a:after {
+    border-top: 6px solid rgb(5, 55, 117);
+}
+
+.tab-default li.active a,
+.tab-default li.active a:hover,
+.tab-default li.active a:focus {
+    border: none;
+    background-color: rgb(5, 55, 117);
+    color: #fff;
+}
+
+.tab-icon-listing,
+.tab-icon-listing:hover,
+.icon-listing-default,
+.icon-listing-default:hover {
+    color: rgb(178, 28, 66);
+}
+
+.tab-icon-listing .date,
+.icon-listing-default .date {
+    background-color: rgb(178, 28, 66);
+}
+
+.tab-icon-listing:hover:after,
+.icon-listing-default:hover:after {
+    height: 100%;
+    background-color: #efefef;
+}
+
+.tab-default+.panel-group .panel-heading a {
+    border-color: transparent;
+    background-color: rgb(178, 28, 66);
+    color: #fff;
+}
+
+.tab-default+.panel-group .panel-heading a.collapsed {
+    background-color: transparent;
+    border-color: rgb(178, 28, 66);
+    color: rgb(178, 28, 66);
+}
+
+.tab-default+.panel-group .panel-heading a:after {
+    border-top: 8px solid #ffffff;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.tab-default+.panel-group .panel-heading a.collapsed:after {
+    border-top: 8px solid rgb(178, 28, 66);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+/*=============== End Tab Default ===============*/
+
+/* ========== Start Side Menu ========== */
+
+.side-menu-listing a:hover {
+    color: #b21c42;
+}
+
+.side-menu-listing a:before {
+    border: 2px solid #b21c42;
+}
+
+/* ========== End Side Menu ========== */
+
+/* ========== Start Header Theme ========== */
+
+.header-top {
+    background-color: rgb(5, 55, 117);
+}
+
+.main-nav li a {
+    color: rgb(5, 55, 117);
+}
+
+.main-nav li.active a,
+.main-nav li a:hover,
+.main-nav li a:focus {
+    color: rgb(178, 28, 66);
+}
+
+.active-hover {
+    background-color: rgb(178, 28, 66);
+}
+
+.main-nav li.active .custom-drop-menu li a,
+.custom-drop-menu li a {
+    color: rgb(5, 55, 117);
+}
+
+@media(max-width: 1023px) {
+    .custom-drop-menu li a {
+        color: #fff;
+    }
+}
+
+/* ========== End Header Theme ========== */
+
+/* ==================== Start CM HOME THEME ==================== */
+
+/* ========== Start Title Banner ========== */
+
+.title-banner {
+    background-color: rgb(178, 28, 66);
+    color: #ffffff;
+}
+
+/* ========== End Title Banner ========== */
+
+/* ========== Start Features & Updates ========== */
+
+.featured-img figcaption h4 {
+    color: rgb(178, 28, 66);
+}
+
+.list-events-minister a {
+    color: rgb(178, 28, 66);
+}
+
+.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: rgb(178, 28, 66);
+    background-color: rgba(184, 57, 85, .75);
+}
+
+.custom-card figure {
+    background-color: rgb(178, 28, 66);
+}
+
+.card-content h4 {
+    color: rgb(178, 28, 66);
+}
+
+/* ========== End Features & Updates ========== */
+
+/* ========== Start Tab Slider Section ========== */
+
+.thumbnails .slick-slide.slick-current {
+    border: 4px solid rgb(178, 28, 66);
+}
+
+.list-events {
+    color: rgb(178, 28, 66);
+}
+
+.list-events span.date {
+    background-color: rgb(178, 28, 66);
+    color: #ffffff;
+}
+
+/* ========== End Tab Slider Section ========== */
+
+/* ========== Start Blue Section ========== */
+
+.complain-section {
+    background-color: rgb(5, 55, 117);
+}
+
+.complain-section .btn-white:hover i {
+    color: rgb(178, 28, 66);
+}
+
+/* ========== End Blue Section ========== */
+
+/* ==================== End CM HOME THEME ==================== */
+
+/* ==================== Start Pradesh Home THEME ==================== */
+
+.area-status-wrap {
+    background-color: rgba(178, 28, 66, 1);
+}
+
+.article-block:hover {
+    background-color: rgb(178, 28, 66);
+}
+
+.article-block h4 {
+    color: rgb(178, 28, 66);
+}
+
+.article-block figure {
+    margin: -20px -20px 20px;
+    padding-left: 6px;
+    background-color: rgb(178, 28, 66);
+}
+
+.article-block:hover .btn-read-more {
+    color: rgb(178, 28, 66);
+}
+
+@media(min-width: 1200px) {
+    .area-status-wrap {
+        background-color: rgba(178, 28, 66, .9);
+    }
+}
+
+/* ==================== End Pradesh Home THEME ==================== */
+
+/* ==================== Start Press Featured  THEME ==================== */
+
+.card-article:hover {
+    background-color: rgb(178, 28, 66);
+}
+
+.card-article h4 {
+    color: rgb(178, 28, 66);
+}
+
+/* ==================== End Press Featured  THEME ==================== */
+
+/* ==================== Start Time Line ==================== */
+
+.timeline-header h4,
+.content-header-right h5 a {
+    color: #b21c42;
+}
+
+.timeline-list:before {
+    background-color: #b21c42;
+}
+
+.timeline-list li:before {
+    background-color: #053775;
+}
+
+/* ==================== End Time Line ==================== */

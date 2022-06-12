@@ -1,0 +1,153 @@
+﻿@model EGovProject.Models.ViewModel.ContactModel
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<main>
+
+
+    <section class="page-title-breadcrumb">
+        <div class="container flex-container">
+            <div class="breadcrumb">
+                <h2 class="element-invisible">You are here</h2><div class="breadcrumb"><a href="/">Home</a> » Contact</div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" introduction" style="margin-top:25px">
+        <div class="container">
+            <div class="row" style="margin-bottom:36px">
+                <div class="col-xs-12 col-sm-12 col-md-12{9">
+                    <div class="intro">
+                        <h3 class="section-title border">
+                            <span>
+                                Contact
+                            </span>
+                        </h3>
+
+                    </div>
+
+                    <div class="region region-content">
+                        <div id="block-system-main" class="block block-system">
+
+
+                            <div class="content">
+                                <div id="node-2" class="node node-webform node-full clearfix" about="/en/node/2" typeof="sioc:Item foaf:Document">
+
+                                    <span property="dc:title" content="Contact" class="rdf-meta element-hidden"></span>
+                                    <div class="field field-name-field-body field-type-text-with-summary field-label-hidden">
+                                        <div class="field-items">
+                                            <div class="field-item even">
+                                                <p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d27331.539094216936!2d85.61397010337232!3d27.697432360673712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snp!4v1632369998489!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></p>
+                                                <p>Street Address:</p>
+                                                <p>Bagmati Pradesh,Mandandeupur-9, Kavre, Nepal</p>
+                                                <p>Phone: 011412058,011412059</p>
+                                                <p>Fax :&nbsp;&nbsp;+97714914116</p>
+                                                <p>Email:&nbsp;<a href="mailto:arjunshrestha817@gmail.com">arjunshrestha817@gmail.com</a></p>
+                                                <p>Toll Free No: 0000111100</p>
+                                                <p><em><strong>Please fill up the below form if you have any feedback.</strong></em></p>
+                                                <hr><p>&nbsp;</p>
+                                            </div>
+                                        </div>
+                                    </div><form class="webform-client-form webform-client-form-2" action="contact" method="post" id="webform-client-form-2" accept-charset="UTF-8">
+                                              <div>
+                                                  <input type="hidden" asp-for="Id" class="form-control" required />
+                                                  <div class="form-item webform-component webform-component-textfield webform-component--name">
+                                                      <label for="edit-submitted-name">Name <span class="form-required" title="This field is required.">*</span></label>
+                                                      <input asp-for="Name" required="required" type="text" id="edit-submitted-name" value="" size="100" maxlength="255" class="form-text required">
+                                                  </div>
+                                                  <div class="form-item webform-component webform-component-textfield webform-component--email">
+                                                      <label for="edit-submitted-email">Email </label>
+                                                      <input asp-for="Email" type="text" id="edit-submitted-email" value="" size="60" maxlength="128" class="form-text">
+                                                  </div>
+                                                  <div class="form-item webform-component webform-component-textfield webform-component--email">
+                                                      <label for="edit-submitted-email">Phone No.</label>
+                                                      <input asp-for="Phone" type="text" id="edit-submitted-phone" value="" size="10" maxlength="10" class="form-text">
+                                                  </div>
+                                                  <div class="form-item webform-component webform-component-textfield webform-component--subject">
+                                                      <label for="edit-submitted-subject">Subject <span class="form-required" title="This field is required.">*</span></label>
+                                                      <input asp-for="Subject" required="required" type="text" id="edit-submitted-subject" value="" size="100" maxlength="255" class="form-text required">
+                                                  </div>
+                                                  <div class="form-item webform-component webform-component-select-or-other webform-component--type">
+                                                      <div class="select-or-other select-or-other-processed">
+                                                          <div class="form-item form-type-select form-item-submitted-type-select">
+                                                              <label for="edit-submitted-type-select">Type </label>
+                                                              <select asp-for="Type" class="select-or-other-select form-select" id="edit-submitted-type-select"><option value="Feedback" selected="selected">Feedback</option><option value="Grievance">Grievance</option><option value="select_or_other">Other...</option></select>
+                                                          </div>
+
+
+                                                      </div>
+
+                                                  </div>
+                                                  <div class="form-item webform-component webform-component-textarea webform-component--message">
+                                                      <label for="edit-submitted-message">Message <span class="form-required" title="This field is required.">*</span></label>
+                                                      <div class="form-textarea-wrapper resizable textarea-processed resizable-textarea"><textarea asp-for="Message" required="required" id="edit-submitted-message" cols="60" rows="5" class="form-textarea required"></textarea><div class="grippie"></div></div>
+                                                  </div>
+
+                                                  <div class="form-actions"><input class="webform-submit button-primary form-submit" type="submit" name="op" value="Submit"></div>
+                                              </div>
+                                    </form>  <div class="content clearfix">
+
+                                    </div>
+
+
+                                    <div class="link-wrapper">
+                                        <ul class="links inline">
+                                            <li class="translation_ne first last"><a href="~/contact/contactn" title="सम्पर्क" class="translation-link" xml:lang="ne">नेपाली</a></li>
+                                        </ul>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs">
+                    </div>
+
+                </div>
+                <!--	-->
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+    <section style="margin-top:20px">
+
+        <div id="blocks-wrapper">
+            <div class="container">
+                <div class="row">
+
+                    <div id="workflow" class="clearfix">
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                    </div>
+
+                    <div id="triptych" class="clearfix">
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                        <div class="col-md-3"><div class="sidebar"></div></div>
+                    </div>
+
+                </div>
+            </div> <!-- /#page, /#page-wrapper -->
+        </div> <!-- /#triptych, /#blocks-wrapper -->
+
+
+    </section>
+
+
+
+
+
+
+</main>

@@ -1,0 +1,116 @@
+h3.section-title {
+    border-left: none;
+    font-size: 22px;
+}
+
+.default-listing li:after {
+    display: none;
+}
+
+picture figure {
+    position:relative;
+    padding: 10px 10px 216px;
+    margin: 0 0 20px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 250px inset rgba(0, 0, 0, 1)
+}
+.gallery-post {
+    column-count: 1;
+    column-gap: 36px;
+    margin:0 auto;
+    width:100%;
+    text-align: center;
+}
+@media(min-width:768px){
+    .gallery-post {
+        column-count: 3;
+}
+}
+
+
+.gallery-post a {
+    position:relative;
+    width: 100%;
+    height: 226px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 0 26px 0;
+    transition:1000ms ease all;   
+ 
+}
+
+.gallery-post a:hover:before {
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity:1;
+    background: #376fc240;
+    z-index: 1;
+}
+.gallery-post a img {
+    width: 100%;
+    height: 100%;
+    transition:1000ms ease all;
+    
+}
+.gallery-post a:hover img{
+    transform:scale(1.1);
+}
+
+
+
+
+.list-events-minister li:not(:last-child) {
+    margin: 0 0 3px;
+}
+
+.list-events-minister a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 11.5px 12px;
+    background-color: #ffffff;
+    font-size: 14px;
+}
+
+.list-events-minister a span {
+    width: calc(100% - (25px + 12px));
+    display: inline-block;
+}
+
+.list-events-minister a svg {
+    width: 25px;
+    height: 25px;
+    margin: 0 12px 0 0;
+}
+
+.list-events-minister a svg path,
+.list-events-minister a svg circle,
+.list-events-minister a svg rect {
+    fill: #87a1c0;
+    transition: 300ms ease;
+}
+
+.list-events-minister a:hover svg path,
+.list-events-minister a:hover svg circle,
+.list-events-minister a:hover svg rect {
+    fill: #89d8bd;
+}
+
+.gallery-post a h5 {
+    POSITION: ABSOLUTE;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    color: #fff;
+    opacity:0;
+    z-index: 1;
+}
+.gallery-post a:hover h5{
+    opacity:1
+}

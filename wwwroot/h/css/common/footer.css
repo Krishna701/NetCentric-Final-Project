@@ -1,0 +1,147 @@
+/*=============== Start Footer ===============*/
+
+footer {
+    padding: 26px 0 0;
+    background-color:#234a83;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 26px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+
+footer h3.section-title{
+    line-height:33px;
+    color:#fff;
+    margin:0;
+}
+
+footer h3.section-title.english{
+    font-size: 20px;
+    line-height: 33px;
+    font-weight:500;
+}
+@media(max-width:1023px){
+    footer h3.section-title{
+        padding: 20px 0 0;
+}
+}
+@media(max-width:767px){
+    footer {
+        padding: 20px 0 0;
+}
+}
+footer .custom-card{
+    display:block;
+}
+footer .custom-card figure{
+    width:128px;
+    max-height:128px;
+    margin:0 0 16px 0;
+}
+footer .card-content h4{
+    font-weight:400;
+    color:#ffffff;
+}
+footer .card-content{
+    width:100%;
+    padding: 0;
+}
+footer  .custom-card:last-child:hover {
+    box-shadow: -11px 16px 20px -19px rgba(0,0,0,0);
+    }
+footer .card-content p{
+    font-weight:400;
+    color:#ffffff;
+}
+footer p.number, footer p.email {
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer-social-links {
+    display: flex;
+    align-items: flex-end;
+    margin: 40px 0 0;
+    line-height: 0;
+}
+
+.footer-social-links a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.33);
+}
+
+.footer-social-links a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-nav {
+    display: block;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-nav a {
+    /* flex: 1 1 calc(50% - 20px); */
+    display:block;
+    margin: 0;
+    padding: 0;
+    /* border-bottom: 1px solid rgba(255, 255, 255, 0.14); */
+    color: #ffffff;
+    line-height: 17px;
+    line-height: 33px;
+    font-weight: 400;
+}
+
+footer .footer-nav a:hover{
+    color:#efefef ;
+}
+
+.footer-bottom {
+    /* border-top: 1px solid #fff; */
+    padding: 12px 0;
+    margin: 50px 0 0 !important;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+}
+
+.footer-bottom a {
+    color: rgb(178, 28, 66);
+}
+
+.footer-social-links,
+.footer-nav {
+    margin-bottom: 30px;
+}
+
+@media(min-width: 1024px) {
+    .footer-social-links,
+    .footer-nav {
+        margin-bottom: 0;
+    }
+}
+footer ul li {
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+footer ul li a{
+    color:#fff;
+}
+footer ul li a:hover{
+    color:#efefef ;
+}
+/*=============== End Footer ===============*/
+.fb-page.fb_iframe_widget {
+    border-radius: 6px;
+    /* background: #fff; */
+    overflow: hidden;
+}
+
+footer a:link {
+    color: #fff !important;
+}
